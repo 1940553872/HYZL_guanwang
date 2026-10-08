@@ -1,0 +1,44 @@
+﻿类别,区域,企业,官网,风格流派,风格关键词,主色/强调色,字体,明暗基调,首屏形态,导航形态,主要配图,代表文案,可信度
+AI,国外,OpenAI,openai.com,极简编辑型,极简黑白;编辑排版;人性化几何,黑白灰阶,OpenAI Sans(定制),浅色,大字+对话输入框,左侧竖向导航(2025版),抽象色域/类油画渐变,Ensure that AGI benefits all of humanity,公开+观察
+AI,国外,Anthropic,anthropic.com,温暖人文型,象牙白;衬线;手绘插画;安全可信,象牙白+石板灰+陶土橙#D97757,Anthropic Serif(曾用Styrene+Tiempos),浅色暖白,大字声明,极简横向+分组下拉,手绘插画+Lottie,AI research and products that put safety at the frontier,实测
+AI,国外,Google DeepMind,deepmind.google,学术研究型,轻盈留白;3D抽象;乐观,白底+Gemini四色渐变,Google Sans,浅色,旗舰模型发布+视频,顶部导航+模型下拉,3D抽象渲染/粒子动效,Build AI responsibly to benefit humanity,公开+观察
+AI,国外,Microsoft AI,microsoft.com/ai,企业解决方案型,结构化;Fluent;信任,中性色+微软蓝;Copilot暖光,Segoe UI,浅色,双CTA价值主张,全站导航+吸顶锚点子导航,人物摄影+产品截图,Build what's next with Microsoft AI,实测
+AI,国外,NVIDIA,nvidia.com,暗黑电影型,硬核科技;高对比;直角,黑白+绿#76B900,NVIDIA Sans,深色首屏+浅色正文,发布会/主题演讲,超大Mega Menu,硬件写实渲染/Omniverse,World Leader in Artificial Intelligence Computing,公开·第三方+观察
+AI,国外,Meta AI,ai.meta.com,学术研究型,开放研究;明亮,白底+Meta蓝渐变,Meta自有字体,浅色,模型/研究发布,顶部导航,产品演示/研究配图,Llama开源模型,观察
+AI,国外,Mistral AI,mistral.ai,温暖人文型,欧式精致;暖色渐变;像素方块;直角,黄#FFD900→橙#FFA110→焦橙#FA520F,定制展示字体,浅色暖调,超大标题,顶部导航+下拉,金色风景摄影/日落渐变,Frontier AI in your hands(待核验),公开·第三方
+AI,国外,xAI,x.ai,极简编辑型,深色唯一;等宽字体;粗野极简,近黑+白,Geist Mono+几何无衬线,深色,超大等宽标题,极简顶部导航,宇宙意象/极少配图,Understand the Universe(待核验),公开·第三方
+AI,国外,Perplexity,perplexity.ai,温暖人文型,好奇心;纸张暖白;产品即官网,青绿+纸白+墨黑,FK Display/FK Grotesk,浅色,搜索输入框,应用式侧边栏,编辑式插图,Where knowledge begins,公开+观察
+AI,国外,Cohere,cohere.com,温暖人文型,New Nature;细胞Voronoi;企业级,有机色系(2026转向黑白),定制字体,浅色,企业价值主张,顶部导航+下拉,细胞几何/动态排版,企业级私有安全AI,公开
+AI,国外,Hugging Face,huggingface.co,社区工具型,社区;高密度;俏皮,中性+向日葵黄#FFD21E,Source Sans Pro+IBM Plex Mono,浅/深可切换,搜索优先,应用式顶栏,🤗表情/头像/模型卡,The AI community building the future,公开·第三方+观察
+AI,国外,Runway,runwayml.com,暗黑电影型,电影感;作品即界面,深色,ABC Normal,深色,全出血视频,顶部导航,AI生成视频,创意工具,公开·第三方
+AI,国内,百度智能云/文心,cloud.baidu.com,云门户运营型,科技蓝;信息密集;运营驱动,蓝约#2468F2,系统字体,浅色+深色Banner,轮播Banner,Mega Menu,3D立体图形/光效,新全栈AI云,观察+公开
+AI,国内,阿里云/通义千问,aliyun.com,云门户运营型,橙色;商业化;AI全栈,橙约#FF6A00+灰白,阿里巴巴普惠体,浅色,轮播/大模型专区,Mega Menu+常驻搜索,3D图标/发布主视觉,为了无法计算的价值,公开+观察
+AI,国内,腾讯云/混元·元宝,cloud.tencent.com,云门户运营型,腾讯蓝;门户型;产品矩阵,蓝约#006EFF,系统字体,浅色,轮播Banner,Mega Menu,3D图标/活动主视觉,混元更名Tencent HY,公开+观察
+AI,国内,华为云/盘古·昇腾,huaweicloud.com,云门户运营型,华为红;深色科技;行业纵深,红约#C7000B+黑白,HarmonyOS Sans,深色首屏,轮播Banner,Mega Menu+地区站,3D科技视觉,AI for Industries 大模型重塑千行百业,公开+观察
+AI,国内,火山引擎/豆包,volcengine.com,云门户运营型,字节系;明亮蓝;发布会式,蓝约#1664FF+蓝紫渐变,系统字体,浅色+深色发布区,大模型发布首屏,Mega Menu,发布主视觉/数据大数字,激发创造，丰富生活,观察
+AI,国内,科大讯飞/星火,iflytek.com,云门户运营型,集团门户;蓝色科技;行业矩阵,蓝色系,系统字体,浅色,轮播Banner,顶部导航,科技场景/行业应用,用人工智能建设美好世界,公开+观察
+AI,国内,商汤科技,sensetime.com,企业门户型,深蓝紫;视频首屏,深蓝紫,系统字体,深色,视频首屏,顶部导航,科技视频/行业场景,坚持原创，让AI引领人类进步,公开+观察
+AI,国内,智谱/Z.ai,zhipuai.cn;bigmodel.cn;z.ai,极简编辑型(z.ai),多站分工;蓝紫渐变;对话优先,蓝紫渐变,系统字体,浅/深,对话框(z.ai),多站点分工,模型卡片,让机器像人一样思考,公开+观察
+AI,国内,月之暗面/Kimi,kimi.com,极简编辑型,品牌手册化;核心蓝;理性+人文,核心品牌蓝,Inter+Geist Mono+Sentient,浅色,对话框,应用式,极简,对未知的好奇与永不止步的追问,公开
+AI,国内,DeepSeek,deepseek.com,极简编辑型,极简;安静;研究论文感,鲸鱼蓝#4D6BFE,Inter+PingFang SC,浅色(白→雾蓝渐变),字标+标语+入口卡片,无传统导航,几乎无配图,探索未至之境,公开·第三方
+AI,国内,MiniMax,minimaxi.com,温暖人文型,生机自然;彩色产品卡;黑白基底,黑白+珊瑚#FF5530/品红#EA5EC1/蓝#1456F0/紫#A855F7,Libre Baskerville+Outfit+DM Sans,浅色,产品矩阵,顶部导航+产品下拉,产品渐变色卡/动植物形态,与所有人共创智能,公开+公开·第三方
+工业软件,国外,西门子DISW,sw.siemens.com,数字孪生科技型,深色科技;石油青渐变;平台化,石油青#009999+深海军蓝,Siemens Sans,深色首屏+浅色正文,视频/渲染+价值主张,Mega Menu+产品A-Z,实景+数字孪生线框叠加,Accelerate your digital transformation,公开+观察
+工业软件,国外,达索系统,3ds.com,数字孪生科技型,电影级渲染;科学人文;宏大叙事,3DS深蓝,自有字体,深色,全屏视频,品牌矩阵导航,虚拟孪生渲染/纪录片,Virtual Worlds for Real Life,公开+观察
+工业软件,国外,Autodesk,autodesk.com,创意作品型,黑白+亮黄;作品驱动,黑白+Hello Yellow,Artifakt,浅色,品牌战役/客户作品,按行业+行业云,客户作品摄影/渲染,Let There Be Anything,公开
+工业软件,国外,PTC,ptc.com,工程权威型,绿灰;实体×数字;AR,绿+灰,品牌字体,浅色,价值主张,按生命周期,产品实拍+AR叠加,Intelligent Product Lifecycle,公开+观察
+工业软件,国外,Ansys(Synopsys),ansys.com,工程权威型,斜杠图形;仿真云图,金黄+黑,品牌字体,浅/深,价值主张,顶部导航,仿真云图,From silicon to systems,公开+观察
+工业软件,国外,Synopsys,synopsys.com,工程权威型,紫色;芯片;数据密集,紫色,品牌字体,浅/深,价值主张,Mega Menu,芯片/晶圆渲染,From silicon to systems,公开+观察
+工业软件,国外,Cadence,cadence.com,工程权威型,品牌红;系统设计,红色,品牌字体,浅色,价值主张,Mega Menu,3D-IC/系统仿真,Computational Software for Intelligent System Design,公开+观察
+工业软件,国外,Hexagon/Octave,hexagon.com;octave.com,数字孪生科技型,数字现实;点云;六边形,深蓝/深色,品牌字体,深色,视频首屏,按行业+事业部,点云/现实捕捉,Empowering an autonomous future,公开+观察
+工业软件,国外,AVEVA,aveva.com,企业服务门户型,紫蓝渐变;工业信息,紫蓝,品牌字体,浅/深,价值主张,Mega Menu,工厂现场/数据界面,Industrial intelligence,公开+观察
+工业软件,国外,Bentley Systems,bentley.com,数字孪生科技型,基础设施;数字孪生,待核验,品牌字体,浅色,价值主张,顶部导航,基础设施摄影/iTwin,Advancing Infrastructure,观察
+工业软件,国内,中望软件,zwsoft.cn,国产工具转化型,版本发布;3D渲染;国产替代,待核验,系统字体,浅色,轮播Banner,顶部导航+下载中心,零件渲染/软件界面,All-in-One CAx解决方案,公开+观察
+工业软件,国内,华大九天,empyrean.com.cn,工程权威型,芯片;全流程,蓝色系(待核验),系统字体,浅色,轮播Banner,顶部导航,芯片版图/晶圆,全流程EDA,公开+观察
+工业软件,国内,广联达,glodon.com,工业平台叙事型,建筑垂直;数字建筑;产业AI,待核验,系统字体,浅色,轮播Banner,业务×客户类型,施工现场/BIM/城市,数字建筑平台服务商,公开+观察
+工业软件,国内,中控技术,supcon.com,工业平台叙事型,流程工业;控制系统;工业AI,待核验,系统字体,浅色,轮播Banner,按行业,化工装置/中控室,让工业更智能，让生活更轻松,公开+观察
+工业软件,国内,宝信软件,baosight.com,工业平台叙事型,钢铁;工业互联网;集团背书,待核验,系统字体,浅色,轮播Banner,顶部导航,钢厂/产线/数据大屏,xIn3Plat工业互联网平台,公开+观察
+工业软件,国内,用友,yonyou.com,企业服务门户型,企业服务;平台化;AI先导,红橙色系(待核验),系统字体,浅色,轮播Banner,行业×领域矩阵,平台架构/客户场景,AI+X(BIP 6),公开+观察
+工业软件,国内,金蝶,kingdee.com,企业服务门户型,全球化;AI优先;多站点,金蝶蓝,系统字体,浅色,AI+管理主张,区域站IP自动跳转+多语言,产品界面/行业场景,AI优先、订阅优先、全球化,公开
+工业软件,国内,浩辰软件/CAXA,gstarcad.com;caxa.com,国产工具转化型,工具软件;下载转化,待核验,系统字体,浅色,版本发布,顶部导航+下载,软件界面/图纸,国产CAD,观察
+工业软件,国内,树根互联,rootcloud.com,工业平台叙事型,工业操作系统;连接规模,待核验,系统字体,浅/深,平台主张,顶部导航,平台架构图/设备数据,工业操作系统,公开+观察
+工业软件,国内,卡奥斯COSMOPlat,cosmoplat.com,工业平台叙事型,大规模定制;灯塔工厂,待核验,系统字体,浅/深,平台主张,顶部导航,灯塔工厂/产业云脑,大规模定制,公开+观察
