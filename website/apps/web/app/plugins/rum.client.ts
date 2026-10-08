@@ -2,6 +2,7 @@
 import { onCLS, onINP, onLCP, onTTFB, type Metric } from 'web-vitals'
 
 export default defineNuxtPlugin(() => {
+  if (useRuntimeConfig().public.staticDemo) return // 静态演示包没有后端
   const queue: Record<string, unknown>[] = []
   const device = window.matchMedia('(max-width: 767px)').matches ? 'mobile' : 'desktop'
   const push = (m: Metric) => {

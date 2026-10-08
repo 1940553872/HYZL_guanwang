@@ -7,6 +7,7 @@ const props = withDefaults(defineProps<{ type?: 'demo' | 'contact' | 'partner'; 
 })
 const { public: pub } = useRuntimeConfig()
 const route = useRoute()
+const staticDemo = !!pub.staticDemo
 
 const PRODUCTS = [
   { value: 'spatigo', label: '空间群弈™ SpatiGo™（整体）' },
@@ -54,6 +55,11 @@ async function submit() {
     focusFirstError()
     return
   }
+  if (staticDemo) {
+    // 静态演示包没有后端：只演示校验与成功状态，不提交任何数据
+    status.value = 'done'
+    return
+  }
   status.value = 'sending'
   try {
     await $fetch('/api/v1/leads', {
@@ -98,6 +104,7 @@ const cls = (k: string) => [field, errors.value[k] ? 'border-danger' : 'border-l
   <div v-if="status === 'done'" class="card p-8 text-center" role="status">
     <span class="mx-auto inline-flex size-14 items-center justify-center rounded-full bg-[#E6F4EC] text-success"><UiIcon name="check" :size="28" /></span>
     <h2 class="mt-4 text-2xl">提交成功</h2>
+    <p v-if="staticDemo" class="mt-2 text-sm text-warning">（演示版：表单校验已通过，演示环境不会保存或发送任何数据）</p>
     <p class="mt-3 text-ink-600">我们的工程师将在 <strong>1 个工作日内</strong> 与您联系。紧急需求请直接拨打 7×24 热线：</p>
     <a :href="`tel:${pub.hotline}`" class="font-latin mt-2 inline-block text-2xl font-bold text-brand-blue-700">{{ pub.hotline }}</a>
     <div class="mt-6 flex flex-wrap justify-center gap-3">

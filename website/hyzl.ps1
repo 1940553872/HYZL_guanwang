@@ -9,6 +9,8 @@ param(
 $ErrorActionPreference = 'Stop'
 # Windows PowerShell 5.1 没有 $IsWindows，视为 Windows
 $OnWindows = ($PSVersionTable.PSEdition -eq 'Desktop') -or $IsWindows
+# 按 UTF-8 读取 node / npm / java 的输出，避免中文日志在 GBK 控制台下乱码
+try { [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; $OutputEncoding = [System.Text.Encoding]::UTF8 } catch { }
 $Root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $RunDir = Join-Path $Root '.run'
 $LogDir = Join-Path $RunDir 'logs'
@@ -76,6 +78,11 @@ function Test-Env {
   $nv = ("$(& node -p 'process.versions.node')").Trim()
   $parts = $nv.Split('.')
   if ([int]$parts[0] -lt 20 -or ([int]$parts[0] -eq 20 -and [int]$parts[1] -lt 19)) { Fail "Node.js 版本为 $nv，需要 20.19 或更高版本。" }
+  $ma = [int]$parts[0]; $mi = [int]$parts[1]; $pa = [int]$parts[2]
+  # Nuxt 4.6 官方支持范围：^22.22.3 || ^24.15.0 || >=26
+  if (-not (($ma -eq 22 -and ($mi -gt 22 -or ($mi -eq 22 -and $pa -ge 3))) -or ($ma -eq 24 -and $mi -ge 15) -or $ma -ge 26)) {
+    Write-Host "[!] Node.js $nv 不在 Nuxt 4.6 官方支持范围内（22.22.3+ / 24.15+ / 26+），建议升级到最新 22 LTS 或 24 LTS。" -ForegroundColor Yellow
+  }
   Ok "环境检查通过：Java $jv，Node.js $nv"
 }
 
@@ -95,7 +102,13 @@ function Invoke-Build {
     try { $code = Invoke-Native $npm @('ci', '--no-audit', '--no-fund') } finally { Pop-Location }
     if ($code -ne 0) { Fail 'npm 依赖安装失败。' }
   }
-  if ($Rebuild -or -not (Test-Path $WebEntry)) {
+  $needWeb = $Rebuild -or -not (Test-Path $WebEntry)
+  if (-not $needWeb) {
+    Push-Location $WebDir
+    try { $code = Invoke-Native 'node' @('scripts/verify-build.mjs') (Join-Path $LogDir 'verify-build.log') } finally { Pop-Location }
+    if ($code -ne 0) { Write-Host '[!] 已有的网站构建产物不完整，将重新构建。' -ForegroundColor Yellow; $needWeb = $true }
+  }
+  if ($needWeb) {
     Info '构建网站（约 30 秒）…'
     $log = Join-Path $LogDir 'web-build.log'
     Push-Location $WebDir

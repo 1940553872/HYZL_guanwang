@@ -60,6 +60,11 @@ check_env() {
   local nv; nv="$(node -p 'process.versions.node')"
   local major="${nv%%.*}" minor; minor="$(echo "$nv" | cut -d. -f2)"
   if (( major < 20 || (major == 20 && minor < 19) )); then die "Node.js 版本为 $nv，需要 20.19 或更高版本。"; fi
+  local patch; patch="$(echo "$nv" | cut -d. -f3)"
+  # Nuxt 4.6 官方支持范围：^22.22.3 || ^24.15.0 || >=26
+  if ! (( (major == 22 && (minor > 22 || (minor == 22 && patch >= 3))) || (major == 24 && minor >= 15) || major >= 26 )); then
+    warn "Node.js $nv 不在 Nuxt 4.6 官方支持范围内（22.22.3+ / 24.15+ / 26+），建议升级到最新 22 LTS 或 24 LTS。"
+  fi
   command -v npm >/dev/null || die "未找到 npm。"
   ok "环境检查通过：Java $jv，Node.js $nv"
 }
@@ -74,6 +79,10 @@ build() {
   if [[ "$force" == "--rebuild" || ! -d "$WEB_DIR/node_modules" ]]; then
     info "安装前端依赖（npm ci）…"
     (cd "$WEB_DIR" && npm ci --no-audit --no-fund) || die "npm 依赖安装失败。"
+  fi
+  if [[ -f "$WEB_ENTRY" && "$force" != "--rebuild" ]] && ! (cd "$WEB_DIR" && node scripts/verify-build.mjs >/dev/null 2>&1); then
+    warn "已有的网站构建产物不完整，将重新构建。"
+    force="--rebuild"
   fi
   if [[ "$force" == "--rebuild" || ! -f "$WEB_ENTRY" ]]; then
     info "构建网站（Nuxt，约 30 秒）…"
