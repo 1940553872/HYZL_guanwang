@@ -1,0 +1,7 @@
+# 测试使用内存库，不落盘
+spring:
+  datasource:
+    url: jdbc:h2:mem:hyzl-test;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH;DB_CLOSE_DELAY=-1
+hyzl:
+  admin:
+    token: test-admin-token

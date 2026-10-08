@@ -1,0 +1,68 @@
+[
+ {
+  "type": "lab",
+  "slug": "lab-1",
+  "title": "工业互联网联合实验室",
+  "summary": "华云智联凭借在国际工业互联网工业自动化领域的技术优势，同时结合陕西煤化在国际及国内的煤炭行业的领先技术、工艺、生产等优势联合西北工业大学、长安大学、海航联才工坊以及浙江安点成立“工业互联网联合实验室”…",
+  "category": null,
+  "sort": 1,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "en": "INDUSTRIAL INTERNET JOINT LAB",
+   "body": "华云智联凭借在国际工业互联网工业自动化领域的技术优势，同时结合陕西煤化在国际及国内的煤炭行业的领先技术、工艺、生产等优势联合西北工业大学、长安大学、海航联才工坊以及浙江安点成立“工业互联网联合实验室”，共同打造智能工厂研发验证环境。",
+   "image": {
+    "src": "/media/lab/content_01_pic.webp",
+    "w": 1600,
+    "h": 743
+   }
+  }
+ },
+ {
+  "type": "lab",
+  "slug": "lab-2",
+  "title": "西北工业大学设备预测性维护实验室",
+  "summary": "西北工业大学加强教育研究，教学成果丰硕",
+  "category": null,
+  "sort": 2,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "en": "NORTHWESTERN POLYTECHNICAL UNIVERSITY EQUIPMENT PREDICTIVE MAINTENANCE LABORATORY",
+   "body": "西北工业大学加强教育研究，教学成果丰硕。建有4个国家级实验教学示范中心，2个国家级虚拟仿真实验教学中心，3个国家级人才培养模式创新实验区。华云智联与西北工业大学设备预测性维护实验室建立长期校企的合作关系。",
+   "image": {
+    "src": "/media/lab/content_02.webp",
+    "w": 1600,
+    "h": 816
+   }
+  }
+ },
+ {
+  "type": "lab",
+  "slug": "lab-3",
+  "title": "长安大学国家级虚拟仿真实验教学中心",
+  "summary": "长安大学国家级虚拟仿真实验教学中心是长安大学“211”工程及“985”优势学科平台重点建设实验室之一，目前有实验教学人员55人，其中教授12人，中心用房面积近1200㎡，仪器设备1432台",
+  "category": null,
+  "sort": 3,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "en": "NATIONAL VIRTUAL SIMULATION EXPERIMENTAL TEACHING CENTER CHANG'AN UNIVERSITY",
+   "body": "长安大学国家级虚拟仿真实验教学中心是长安大学“211”工程及“985”优势学科平台重点建设实验室之一，目前有实验教学人员55人，其中教授12人，中心用房面积近1200㎡，仪器设备1432台。近期获得省级教学成果奖6项，省级教改项目5项。获得省级以上科学技术奖5项，发明专利46项，现拥有工程机械关键零部件现代虚拟制造平台、工程机械原理展示、工程机械结构设计及其分析计算、工程机械电液控制系统、工程机械拆装与驾驶、工程机械施工控制等公共6个虚拟仿真实验平台、开设近百项虚拟仿真实验项目。华云智联与长安大学在工程机械设计、数字孪生等课题建立长期的合作关系。",
+   "image": {
+    "src": "/media/lab/content_03.webp",
+    "w": 1600,
+    "h": 816
+   }
+  }
+ }
+]

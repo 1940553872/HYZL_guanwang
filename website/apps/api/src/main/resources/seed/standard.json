@@ -1,0 +1,984 @@
+[
+ {
+  "type": "standard",
+  "slug": "gb-01",
+  "title": "统一架构与5G集成技术规范 第1部分：通用要求",
+  "summary": "",
+  "category": "national",
+  "sort": 1,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "制定中",
+   "codeSource": null,
+   "status": "drafting",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_gb_01_1.webp",
+     "w": 1060,
+     "h": 1500,
+     "thumb": "/media/about/honor/std/std_gb_01_1-thumb.webp"
+    },
+    {
+     "src": "/media/about/honor/std/std_gb_01_2.webp",
+     "w": 1126,
+     "h": 720,
+     "thumb": "/media/about/honor/std/std_gb_01_2-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "gb-02",
+  "title": "信息技术 数字孪生 第2部分：数字实体",
+  "summary": "",
+  "category": "national",
+  "sort": 2,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "制定中",
+   "codeSource": null,
+   "status": "drafting",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_gb_02_1.webp",
+     "w": 489,
+     "h": 693,
+     "thumb": "/media/about/honor/std/std_gb_02_1-thumb.webp"
+    },
+    {
+     "src": "/media/about/honor/std/std_gb_02_2.webp",
+     "w": 1360,
+     "h": 935,
+     "thumb": "/media/about/honor/std/std_gb_02_2-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "gb-03",
+  "title": "信息技术 数字孪生能力成熟度模型",
+  "summary": "",
+  "category": "national",
+  "sort": 3,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "GB/T 46237—2025",
+   "codeSource": "ocr",
+   "status": "published",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_gb_03_1.webp",
+     "w": 464,
+     "h": 640,
+     "thumb": "/media/about/honor/std/std_gb_03_1-thumb.webp"
+    },
+    {
+     "src": "/media/about/honor/std/std_gb_03_2.webp",
+     "w": 1123,
+     "h": 774,
+     "thumb": "/media/about/honor/std/std_gb_03_2-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "gb-04",
+  "title": "工业仪表智能化等级要求与评价方法",
+  "summary": "",
+  "category": "national",
+  "sort": 4,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "GB/T 45727—2025",
+   "codeSource": "ocr",
+   "status": "published",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_gb_04_1.webp",
+     "w": 553,
+     "h": 810,
+     "thumb": "/media/about/honor/std/std_gb_04_1-thumb.webp"
+    },
+    {
+     "src": "/media/about/honor/std/std_gb_04_2.webp",
+     "w": 1188,
+     "h": 831,
+     "thumb": "/media/about/honor/std/std_gb_04_2-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "gb-05",
+  "title": "信息技术装备数字孪生系统通用要求",
+  "summary": "",
+  "category": "national",
+  "sort": 5,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "GB/T 45626—2025",
+   "codeSource": "ocr",
+   "status": "published",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_gb_05_1.webp",
+     "w": 423,
+     "h": 614,
+     "thumb": "/media/about/honor/std/std_gb_05_1-thumb.webp"
+    },
+    {
+     "src": "/media/about/honor/std/std_gb_05_2.webp",
+     "w": 1145,
+     "h": 882,
+     "thumb": "/media/about/honor/std/std_gb_05_2-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "gb-06",
+  "title": "智能服务 预测性维护绩效评价方法",
+  "summary": "",
+  "category": "national",
+  "sort": 6,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "GB/T 45507—2025",
+   "codeSource": "ocr",
+   "status": "published",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_gb_06_1.webp",
+     "w": 549,
+     "h": 796,
+     "thumb": "/media/about/honor/std/std_gb_06_1-thumb.webp"
+    },
+    {
+     "src": "/media/about/honor/std/std_gb_06_2.webp",
+     "w": 1170,
+     "h": 759,
+     "thumb": "/media/about/honor/std/std_gb_06_2-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "gb-07",
+  "title": "智能服务 预测性维护虚拟维护系统技术要求",
+  "summary": "",
+  "category": "national",
+  "sort": 7,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "GB/T 44407—2024",
+   "codeSource": "ocr",
+   "status": "published",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_gb_07_1.webp",
+     "w": 417,
+     "h": 594,
+     "thumb": "/media/about/honor/std/std_gb_07_1-thumb.webp"
+    },
+    {
+     "src": "/media/about/honor/std/std_gb_07_2.webp",
+     "w": 1141,
+     "h": 849,
+     "thumb": "/media/about/honor/std/std_gb_07_2-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "gb-08",
+  "title": "智能服务 预测性维护算法测评方法",
+  "summary": "",
+  "category": "national",
+  "sort": 8,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "GB/T 43555—2023",
+   "codeSource": "ocr",
+   "status": "published",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_gb_08_1.webp",
+     "w": 423,
+     "h": 594,
+     "thumb": "/media/about/honor/std/std_gb_08_1-thumb.webp"
+    },
+    {
+     "src": "/media/about/honor/std/std_gb_08_2.webp",
+     "w": 1138,
+     "h": 933,
+     "thumb": "/media/about/honor/std/std_gb_08_2-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "gb-09",
+  "title": "智能设备管理 第1部分：概念和定义",
+  "summary": "",
+  "category": "national",
+  "sort": 9,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "制定中",
+   "codeSource": null,
+   "status": "drafting",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_gb_09_1.webp",
+     "w": 1137,
+     "h": 543,
+     "thumb": "/media/about/honor/std/std_gb_09_1-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "gb-10",
+  "title": "智能服务 预测性维护通用要求",
+  "summary": "",
+  "category": "national",
+  "sort": 10,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "GB/T 40571—2021",
+   "codeSource": "ocr",
+   "status": "published",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_gb_10_1.webp",
+     "w": 417,
+     "h": 594,
+     "thumb": "/media/about/honor/std/std_gb_10_1-thumb.webp"
+    },
+    {
+     "src": "/media/about/honor/std/std_gb_10_2.webp",
+     "w": 1142,
+     "h": 759,
+     "thumb": "/media/about/honor/std/std_gb_10_2-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "gb-11",
+  "title": "基于蜂窝网络的工业无线通信规范 第4部分：安全要求",
+  "summary": "",
+  "category": "national",
+  "sort": 11,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "制定中",
+   "codeSource": null,
+   "status": "drafting",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_gb_11_1.webp",
+     "w": 1145,
+     "h": 657,
+     "thumb": "/media/about/honor/std/std_gb_11_1-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "gb-12",
+  "title": "用于工业应用的资产管理壳 第1部分：资产管理壳结构",
+  "summary": "",
+  "category": "national",
+  "sort": 12,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "制定中",
+   "codeSource": null,
+   "status": "drafting",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_gb_12_1.webp",
+     "w": 1162,
+     "h": 834,
+     "thumb": "/media/about/honor/std/std_gb_12_1-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "gb-13",
+  "title": "智能工厂安全一体化 第1部分：一般要求",
+  "summary": "",
+  "category": "national",
+  "sort": 13,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "制定中",
+   "codeSource": null,
+   "status": "drafting",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_gb_13_1.webp",
+     "w": 1058,
+     "h": 1500,
+     "thumb": "/media/about/honor/std/std_gb_13_1-thumb.webp"
+    },
+    {
+     "src": "/media/about/honor/std/std_gb_13_2.webp",
+     "w": 1138,
+     "h": 714,
+     "thumb": "/media/about/honor/std/std_gb_13_2-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "gb-14",
+  "title": "智能工厂安全一体化 第2部分：风险评估要求",
+  "summary": "",
+  "category": "national",
+  "sort": 14,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "GB/T 46933.2—2025",
+   "codeSource": "ocr",
+   "status": "published",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_gb_14_1.webp",
+     "w": 510,
+     "h": 731,
+     "thumb": "/media/about/honor/std/std_gb_14_1-thumb.webp"
+    },
+    {
+     "src": "/media/about/honor/std/std_gb_14_2.webp",
+     "w": 1128,
+     "h": 558,
+     "thumb": "/media/about/honor/std/std_gb_14_2-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "gb-15",
+  "title": "智能工厂安全一体化 第3部分：系统协同设计要求",
+  "summary": "",
+  "category": "national",
+  "sort": 15,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "制定中",
+   "codeSource": null,
+   "status": "drafting",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_gb_15_1.webp",
+     "w": 331,
+     "h": 477,
+     "thumb": "/media/about/honor/std/std_gb_15_1-thumb.webp"
+    },
+    {
+     "src": "/media/about/honor/std/std_gb_15_2.webp",
+     "w": 1149,
+     "h": 725,
+     "thumb": "/media/about/honor/std/std_gb_15_2-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "gb-16",
+  "title": "智能工厂安全一体化 第4部分：系统评测要求",
+  "summary": "",
+  "category": "national",
+  "sort": 16,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "GB/T 46933.4—2025",
+   "codeSource": "ocr",
+   "status": "published",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_gb_16_1.webp",
+     "w": 341,
+     "h": 480,
+     "thumb": "/media/about/honor/std/std_gb_16_1-thumb.webp"
+    },
+    {
+     "src": "/media/about/honor/std/std_gb_16_2.webp",
+     "w": 1140,
+     "h": 504,
+     "thumb": "/media/about/honor/std/std_gb_16_2-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "gb-17",
+  "title": "无人值守场站运行及风险防控水平综合评价导则",
+  "summary": "",
+  "category": "national",
+  "sort": 17,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "GB/T 46712—2025",
+   "codeSource": "ocr",
+   "status": "published",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_gb_17_1.webp",
+     "w": 423,
+     "h": 585,
+     "thumb": "/media/about/honor/std/std_gb_17_1-thumb.webp"
+    },
+    {
+     "src": "/media/about/honor/std/std_gb_17_2.webp",
+     "w": 1152,
+     "h": 670,
+     "thumb": "/media/about/honor/std/std_gb_17_2-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "gb-18",
+  "title": "人工智能 知识图谱技术框架",
+  "summary": "",
+  "category": "national",
+  "sort": 18,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "GB/T 42131—2022",
+   "codeSource": "ocr",
+   "status": "published",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_gb_18_1.webp",
+     "w": 1008,
+     "h": 1417,
+     "thumb": "/media/about/honor/std/std_gb_18_1-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "intl-01",
+  "title": "知识图谱架构",
+  "summary": "",
+  "category": "international",
+  "sort": 101,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "IEEE P2807",
+   "status": "project",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_iec_01_1.webp",
+     "w": 657,
+     "h": 912,
+     "thumb": "/media/about/honor/std/std_iec_01_1-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "intl-02",
+  "title": "工业自动化设备和系统的预测性维护 第1部分：通用要求",
+  "summary": "",
+  "category": "international",
+  "sort": 102,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "IEC 63270-1:2025",
+   "status": "published",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_iec_02_1.webp",
+     "w": 1067,
+     "h": 1493,
+     "thumb": "/media/about/honor/std/std_iec_02_1-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "intl-03",
+  "title": "Industrial Automation Equipment and Systems – Predictive Maintenance（立项证明）",
+  "summary": "",
+  "category": "international",
+  "sort": 103,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "IEC 63270",
+   "status": "proof",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_iec_03_1.webp",
+     "w": 888,
+     "h": 506,
+     "thumb": "/media/about/honor/std/std_iec_03_1-thumb.webp"
+    },
+    {
+     "src": "/media/about/honor/std/std_iec_03_2.webp",
+     "w": 649,
+     "h": 866,
+     "thumb": "/media/about/honor/std/std_iec_03_2-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "intl-04",
+  "title": "人工智能知识图谱与大规模预训练模型融合 第1部分：参考架构",
+  "summary": "",
+  "category": "international",
+  "sort": 104,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "P2807.1",
+   "status": "project",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_iec_04_1.webp",
+     "w": 872,
+     "h": 1109,
+     "thumb": "/media/about/honor/std/std_iec_04_1-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "intl-05",
+  "title": "过程工业报警系统管理",
+  "summary": "",
+  "category": "international",
+  "sort": 105,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "IEC 62682",
+   "status": "published",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_iec_05_1.webp",
+     "w": 1238,
+     "h": 1500,
+     "thumb": "/media/about/honor/std/std_iec_05_1-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "intl-06",
+  "title": "人工智能 知识增强预训练模型 第1部分：框架（第8章编制）",
+  "summary": "",
+  "category": "international",
+  "sort": 106,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "ISO/IEC 25872",
+   "status": "drafting",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_iec_06_1.webp",
+     "w": 1201,
+     "h": 995,
+     "thumb": "/media/about/honor/std/std_iec_06_1-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "intl-07",
+  "title": "数字孪生 概念和术语",
+  "summary": "",
+  "category": "international",
+  "sort": 107,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "ISO/IEC 30173:2023",
+   "status": "published",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_iec_07_1.webp",
+     "w": 532,
+     "h": 726,
+     "thumb": "/media/about/honor/std/std_iec_07_1-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "intl-08",
+  "title": "工业自动化设备和系统的预测性维护 第2部分：算法测评方法",
+  "summary": "",
+  "category": "international",
+  "sort": 108,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "IEC 63270-2",
+   "status": "drafting",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_iec_08_1.webp",
+     "w": 576,
+     "h": 734,
+     "thumb": "/media/about/honor/std/std_iec_08_1-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "intl-09",
+  "title": "工业过程测量、控制和自动化 智能制造 第1部分：术语和定义",
+  "summary": "",
+  "category": "international",
+  "sort": 109,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "IEC TR 63283-1",
+   "status": "published",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_iec_09_1.webp",
+     "w": 404,
+     "h": 559,
+     "thumb": "/media/about/honor/std/std_iec_09_1-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "intl-10",
+  "title": "工业过程测量、控制和自动化 智能制造 第2部分：用例",
+  "summary": "",
+  "category": "international",
+  "sort": 110,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "IEC TR 63283-2",
+   "status": "published",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_iec_10_1.webp",
+     "w": 400,
+     "h": 565,
+     "thumb": "/media/about/honor/std/std_iec_10_1-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "intl-11",
+  "title": "工业过程测量、控制和自动化 智能制造 第3部分：网络安全面临的挑战",
+  "summary": "",
+  "category": "international",
+  "sort": 111,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "IEC TR 63283-3",
+   "status": "published",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_iec_11_1.webp",
+     "w": 401,
+     "h": 568,
+     "thumb": "/media/about/honor/std/std_iec_11_1-thumb.webp"
+    },
+    {
+     "src": "/media/about/honor/std/std_iec_11_2.webp",
+     "w": 1018,
+     "h": 471,
+     "thumb": "/media/about/honor/std/std_iec_11_2-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "intl-12",
+  "title": "国际标准编制证明",
+  "summary": "",
+  "category": "international",
+  "sort": 112,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "—",
+   "status": "proof",
+   "role": "参与制定",
+   "images": [
+    {
+     "src": "/media/about/honor/std/std_iec_12_1.webp",
+     "w": 1400,
+     "h": 1305,
+     "thumb": "/media/about/honor/std/std_iec_12_1-thumb.webp"
+    },
+    {
+     "src": "/media/about/honor/std/std_iec_12_2.webp",
+     "w": 926,
+     "h": 1079,
+     "thumb": "/media/about/honor/std/std_iec_12_2-thumb.webp"
+    },
+    {
+     "src": "/media/about/honor/std/std_iec_12_3.webp",
+     "w": 861,
+     "h": 1064,
+     "thumb": "/media/about/honor/std/std_iec_12_3-thumb.webp"
+    }
+   ]
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "drafting-2026-1",
+  "title": "知识增强工业大模型应用系统参考架构",
+  "summary": "",
+  "category": "drafting",
+  "sort": 201,
+  "featured": true,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "IEEE P3701",
+   "status": "drafting",
+   "role": "编写（2026年）",
+   "images": []
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "drafting-2026-2",
+  "title": "知识增强工业大模型测评基准",
+  "summary": "",
+  "category": "drafting",
+  "sort": 202,
+  "featured": true,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "IEEE P3701.1",
+   "status": "drafting",
+   "role": "编写（2026年）",
+   "images": []
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "drafting-2026-3",
+  "title": "人工智能 知识增强预训练模型 第1部分：框架",
+  "summary": "",
+  "category": "drafting",
+  "sort": 203,
+  "featured": true,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "ISO/IEC 25872",
+   "status": "drafting",
+   "role": "编写（2026年）",
+   "images": []
+  }
+ },
+ {
+  "type": "standard",
+  "slug": "drafting-2026-4",
+  "title": "领域本体智能构建与集成",
+  "summary": "",
+  "category": "drafting",
+  "sort": 204,
+  "featured": true,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "code": "P4123",
+   "status": "drafting",
+   "role": "编写（2026年）",
+   "images": []
+  }
+ }
+]

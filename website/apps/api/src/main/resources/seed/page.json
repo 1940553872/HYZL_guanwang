@@ -1,0 +1,432 @@
+[
+ {
+  "type": "page",
+  "slug": "common",
+  "title": "全站信息",
+  "summary": "",
+  "category": null,
+  "sort": 0,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "company": "西安华云智联信息科技有限公司",
+   "companyEn": "Xi'an H.Y Wisdom Information Technology Co., Ltd.",
+   "phone": "029-88810623",
+   "email": "yanggan@hywisdom.cn",
+   "postcode": "710075",
+   "address": "西安市雁塔区科技路48号创业广场C座2楼C201（WEI SPACE）",
+   "icp": "陕ICP备2026024028号-1",
+   "website": "www.huayunzhilian.cn",
+   "logo": {
+    "color": "/media/brand/logo.webp",
+    "white": "/media/brand/logo-white.webp",
+    "png": "/media/brand/logo.png"
+   },
+   "wechat": {
+    "src": "/media/about/wechat_qrcode.webp",
+    "w": 480,
+    "h": 476
+   },
+   "foundedYear": 2018
+  }
+ },
+ {
+  "type": "page",
+  "slug": "home",
+  "title": "首页",
+  "summary": "",
+  "category": null,
+  "sort": 0,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "announcement": {
+    "text": "入选陕西省首批15个重大创新应用场景：多能源勘探开采加工安全的具身智能场景验证",
+    "href": "/news/2026/company-scenario-release"
+   },
+   "hero": {
+    "eyebrow": "工业人工智能 · 监管—执行智能体集群",
+    "title": "让智能释放产业效能",
+    "subtitle": "空间群弈™ SpatiGo™ 把工业增强大模型、7组智能引擎和工业软件连成一个“人在回路”的监管—执行智能体集群，在油田、矿山、化工和产线现场闭环运行。",
+    "primary": {
+     "label": "预约现场演示",
+     "href": "/demo"
+    },
+    "secondary": {
+     "label": "了解 SpatiGo™",
+     "href": "/products/spatigo"
+    }
+   },
+   "stats": [
+    {
+     "value": "100+",
+     "label": "工业（集团）落地应用",
+     "note": 1
+    },
+    {
+     "value": "30",
+     "label": "国家 / 国际标准工作条目",
+     "note": 2
+    },
+    {
+     "value": ">95%",
+     "label": "靶向增强后推荐准确度",
+     "note": 3
+    },
+    {
+     "value": "1.3B",
+     "label": "最低可部署模型规模",
+     "note": 4
+    }
+   ],
+   "footnotes": [
+    "据公司统计，截至2026年7月，在矿山、石油、化工、半导体、烟草等行业的100余家工业（集团）落地应用。",
+    "国家标准目录18条、国际标准目录12条，含立项、编制中项目及编制证明，详见“标准与研究”。",
+    "靶向增强后数据推荐准确度，来源：公司产品资料（测试数据集与场景待公布）。",
+    "盘古华云智能工厂平台可在低至1.3B模型上部署，来源：公司产品资料。"
+   ],
+   "customers": [
+    "中国航天科技",
+    "中国航空工业",
+    "中国石油",
+    "中国保利",
+    "中国烟草",
+    "中国联通",
+    "陕西煤业",
+    "陕西延长石油",
+    "德国巴斯夫",
+    "沙特阿美"
+   ],
+   "committees": [
+    {
+     "code": "SAC/TC124",
+     "name": "全国工业过程测量控制和自动化标准化技术委员会"
+    },
+    {
+     "code": "SAC/TC28",
+     "name": "全国信息技术标准化技术委员会（SC41、SC42）"
+    },
+    {
+     "code": "SAC/TC88",
+     "name": "全国矿山机械标准化技术委员会"
+    },
+    {
+     "code": "IEC/TC65",
+     "name": "国际电工委员会工业测量、控制和自动化技术委员会"
+    }
+   ],
+   "arch": [
+    {
+     "key": "n",
+     "title": "N 个智能体",
+     "desc": "空间群弈™监管—执行智能体集群与7类工业智能体应用，人在回路。",
+     "href": "/products/spatigo"
+    },
+    {
+     "key": "2",
+     "title": "2 类约束",
+     "desc": "物理—化学混合算法模型预测（MPC）硬约束，成本—效率混合优化软约束。",
+     "href": "/products"
+    },
+    {
+     "key": "10",
+     "title": "10 组工业软件",
+     "desc": "iPLM、iMES、iQMS、iELMS、iWMS、iAPS、iEMS、iSRM、iESS、iRIM。",
+     "href": "/products/software"
+    },
+    {
+     "key": "7",
+     "title": "7 组智能引擎",
+     "desc": "实时数据、机器音视觉、地理信息、工业控制、可视图表、决策分析、数字孪生。",
+     "href": "/products/engines"
+    },
+    {
+     "key": "base",
+     "title": "跨媒体数据底座",
+     "desc": "数据、文本、视频、音频统一标准化基座，兼容 IEC 61131-3 FBD / SFC / ST 控制编译器。",
+     "href": "/products/imllm"
+    }
+   ],
+   "deploy": [
+    {
+     "title": "私有化部署",
+     "text": "支持主流大模型私有化部署，数据不出厂网；满足等保2.0二级安全规范要求。"
+    },
+    {
+     "title": "大小模型迁移",
+     "text": "可在670B全量模型与1B—32B轻量模型间迁移，低至1.3B模型可部署。"
+    },
+    {
+     "title": "传输与存储安全",
+     "text": "TLS 1.3 + 国密SM4；RBAC分级权限；操作日志留存≥180天。"
+    }
+   ],
+   "evidence": [
+    "embodied-energy-safety",
+    "oilfield-special-operations"
+   ],
+   "cta": {
+    "title": "带一个现场问题来，我们用智能体给出答案。",
+    "primary": {
+     "label": "预约现场演示",
+     "href": "/demo"
+    }
+   }
+  }
+ },
+ {
+  "type": "page",
+  "slug": "about",
+  "title": "公司介绍",
+  "summary": "",
+  "category": null,
+  "sort": 0,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "mission": "让智能释放产业效能",
+   "missionEn": "Intelligence that unlocks industrial performance",
+   "intro": [
+    "西安华云智联信息科技有限公司成立于2018年，是新一代工业人工智能科技公司，秉承“让智能释放产业效能”的信念，致力于工业感知控制、工业软件和人工智能深度融合，服务矿山电力、石油化工、航空航天、钢铁冶金、电子信息、装备制造、食药制造和烟草生产等行业“提质增效、节能降耗”的服务型制造转型。",
+    "公司是SAC/TC124、SAC/TC28（SC41、SC42）、SAC/TC88和IEC/TC65等国际和国家标委会委员单位，参与数字孪生、工业软件、人工智能、工业通信、智能工厂、工业仪表控制等国家与国际标准工作；2026年参与编写IEEE P3701、IEEE P3701.1、ISO/IEC 25872与P4123。",
+    "公司聚焦“人在回路”的多模态语言模型—物理世界模型之上的监管—执行多智能体集群（Agentic AI）应用架构，2025年发布空间群弈™（SpatiGo™）工业监管—执行智能体集群。截至2026年7月，在矿山、石油、化工、半导体、烟草行业的100余家工业（集团）的工艺优化、质量提升、设备健康管理和预测维护、FMEA、安全应急和产品研发等判别式大模型应用场景落地。"
+   ],
+   "values": [
+    {
+     "title": "可靠",
+     "text": "人在回路的监管—执行架构，关键动作由人在环上确认。"
+    },
+    {
+     "title": "标准",
+     "text": "以国家与国际标准工作沉淀工程方法，产品对标标准落地。"
+    },
+    {
+     "title": "可信",
+     "text": "私有化部署、国密加密与全过程审计，数据不出厂网。"
+    }
+   ],
+   "milestones": [
+    {
+     "year": "2018",
+     "text": "公司成立，发布盘古（Pangoo）工业互联网平台理念"
+    },
+    {
+     "year": "2019",
+     "text": "参与预测性维护国家标准工作组和国际标准国内对口工作组工作，提出基于图像和声音处理的预测性维护方法"
+    },
+    {
+     "year": "2020",
+     "text": "联合申请项目获批工信部“关键技术与平台创新类”示范项目；获陕西省科学技术进步奖二等奖"
+    },
+    {
+     "year": "2022",
+     "text": "承担延长石油煤电油化复合场景5G+网业融通建设（国家发改委新基建）"
+    },
+    {
+     "year": "2023",
+     "text": "获高新技术企业认定"
+    },
+    {
+     "year": "2025",
+     "text": "发布空间群弈™（SpatiGo™）工业监管—执行智能体集群；获数字中国创新大赛·人工智能赛道三等奖"
+    },
+    {
+     "year": "2026",
+     "text": "参与编写IEEE P3701、IEEE P3701.1、ISO/IEC 25872、P4123；参与项目入选陕西省首批15个重大创新应用场景"
+    }
+   ],
+   "photos": [
+    {
+     "src": "/media/about/introduce/photo_01.webp",
+     "w": 686,
+     "h": 398,
+     "alt": "美国华盛顿大学工业互联网交流"
+    },
+    {
+     "src": "/media/about/introduce/photo_02.webp",
+     "w": 690,
+     "h": 399,
+     "alt": "西安市工业互联网及云平台汇报"
+    },
+    {
+     "src": "/media/about/introduce/photo_03.webp",
+     "w": 690,
+     "h": 399,
+     "alt": "CEC全国NB-IoT示范项目汇报"
+    },
+    {
+     "src": "/media/about/introduce/photo_04.webp",
+     "w": 690,
+     "h": 399,
+     "alt": "带锯制造全球领军企业调研"
+    },
+    {
+     "src": "/media/about/introduce/photo_05.webp",
+     "w": 690,
+     "h": 399,
+     "alt": "华云智联MES产品发布"
+    },
+    {
+     "src": "/media/about/introduce/photo_06.webp",
+     "w": 690,
+     "h": 399,
+     "alt": "陕西省通信管理局局长莅临华云智联展台"
+    },
+    {
+     "src": "/media/about/introduce/photo_07.webp",
+     "w": 690,
+     "h": 399,
+     "alt": "主持中国西部工业互联网发展论坛"
+    },
+    {
+     "src": "/media/about/introduce/photo_08.webp",
+     "w": 690,
+     "h": 399,
+     "alt": "华云智联展台交流"
+    }
+   ]
+  }
+ },
+ {
+  "type": "page",
+  "slug": "support",
+  "title": "服务支持",
+  "summary": "",
+  "category": null,
+  "sort": 0,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "hotline": "029-88810623",
+   "intro": [
+    "我们设立了7×24H服务中心，任何时候只要您需要，技术服务团队都将快速做出反应，为您的生产业务护航。"
+   ],
+   "steps": [
+    {
+     "title": "分析咨询",
+     "en": "Analytical Consultation",
+     "text": "调研现场与业务目标，梳理数据与系统现状。"
+    },
+    {
+     "title": "方案论证",
+     "en": "Demonstration Program",
+     "text": "给出智能体、引擎与软件组合方案并论证可行性。"
+    },
+    {
+     "title": "项目实施",
+     "en": "Project Implementation",
+     "text": "部署、集成与联调，接入PLC/DCS/SCADA等系统。"
+    },
+    {
+     "title": "交付验证",
+     "en": "Delivery Acceptance",
+     "text": "按约定指标验证效果并完成交付。"
+    },
+    {
+     "title": "运营优化",
+     "en": "Operational Optimization",
+     "text": "持续运营、模型迭代与效果优化。"
+    }
+   ],
+   "services": [
+    {
+     "title": "顾问咨询",
+     "en": "Consultancy",
+     "items": [
+      "精益质量管理",
+      "标准合规",
+      "流程优化",
+      "业务改善"
+     ]
+    },
+    {
+     "title": "软件开发",
+     "en": "Software Development",
+     "items": [
+      "数据分析工具",
+      "雾计算与边缘计算",
+      "人工智能工具",
+      "预测性维护工具"
+     ]
+    },
+    {
+     "title": "产品设计",
+     "en": "Product Design",
+     "items": [
+      "终端感知",
+      "信息采集",
+      "物联网 NB-IoT 接入",
+      "移动与固定接入"
+     ]
+    },
+    {
+     "title": "系统集成",
+     "en": "System Integration",
+     "items": [
+      "数字化车间",
+      "柔性供应链",
+      "智能化工厂",
+      "智慧化平台"
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "type": "page",
+  "slug": "privacy",
+  "title": "隐私政策",
+  "summary": "",
+  "category": null,
+  "sort": 0,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "blocks": [
+    {
+     "t": "h",
+     "text": "我们收集的信息"
+    },
+    {
+     "t": "p",
+     "text": "当您通过本网站提交“预约现场演示”或联系表单时，我们会收集您主动填写的姓名、公司、职位、手机号或邮箱及需求描述，仅用于与您联系并提供产品与服务信息。"
+    },
+    {
+     "t": "h",
+     "text": "信息的保护"
+    },
+    {
+     "t": "p",
+     "text": "手机号、邮箱等个人信息在存储时加密保护，后台默认脱敏显示；数据存储在中华人民共和国境内。"
+    },
+    {
+     "t": "h",
+     "text": "保存期限与您的权利"
+    },
+    {
+     "t": "p",
+     "text": "我们仅在实现上述目的所需的期限内保存您的个人信息。您可以通过电子邮件 yanggan@hywisdom.cn 或电话 029-88810623 申请查询、更正或删除您的个人信息。"
+    },
+    {
+     "t": "p",
+     "text": "（本文为网站开发版本的隐私政策草案，正式上线前须经法务审定。）"
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,140 @@
+[
+ {
+  "type": "certificate",
+  "slug": "cert-01",
+  "title": "高新技术企业证书",
+  "summary": "",
+  "category": null,
+  "sort": 1,
+  "featured": false,
+  "publishedAt": "2023-12-12",
+  "expiresAt": "2026-12-11",
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "number": "GR202361006777",
+   "note": "有效期三年",
+   "image": {
+    "src": "/media/about/honor/cert/cert_hightech.webp",
+    "w": 500,
+    "h": 339,
+    "thumb": "/media/about/honor/cert/cert_hightech-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "certificate",
+  "slug": "cert-02",
+  "title": "ISO 9001 质量管理体系认证",
+  "summary": "",
+  "category": null,
+  "sort": 2,
+  "featured": false,
+  "publishedAt": "2024-01-16",
+  "expiresAt": "2027-01-15",
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "number": "GB/T19001-2016/ISO9001:2015",
+   "note": "认证范围：计算机软件开发",
+   "image": {
+    "src": "/media/about/honor/cert/cert_iso9001.webp",
+    "w": 500,
+    "h": 704,
+    "thumb": "/media/about/honor/cert/cert_iso9001-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "certificate",
+  "slug": "cert-03",
+  "title": "技术贸易资格证",
+  "summary": "",
+  "category": null,
+  "sort": 3,
+  "featured": false,
+  "publishedAt": "2018-08-01",
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "number": "181262291",
+   "note": "2018年8月签发",
+   "image": {
+    "src": "/media/about/honor/cert/cert_tech_trade.webp",
+    "w": 500,
+    "h": 688,
+    "thumb": "/media/about/honor/cert/cert_tech_trade-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "certificate",
+  "slug": "cert-04",
+  "title": "注册商标 Pangoo Cloud（第9类）",
+  "summary": "",
+  "category": null,
+  "sort": 4,
+  "featured": false,
+  "publishedAt": "2019-06-07",
+  "expiresAt": "2029-06-06",
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "number": "第32276354号",
+   "note": "",
+   "image": {
+    "src": "/media/about/honor/cert/cert_trademark_01.webp",
+    "w": 500,
+    "h": 711,
+    "thumb": "/media/about/honor/cert/cert_trademark_01-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "certificate",
+  "slug": "cert-05",
+  "title": "注册商标 Pangoo Cloud（第42类）",
+  "summary": "",
+  "category": null,
+  "sort": 5,
+  "featured": false,
+  "publishedAt": "2019-04-07",
+  "expiresAt": "2029-04-06",
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "number": "第32277238号",
+   "note": "",
+   "image": {
+    "src": "/media/about/honor/cert/cert_trademark_02.webp",
+    "w": 500,
+    "h": 711,
+    "thumb": "/media/about/honor/cert/cert_trademark_02-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "certificate",
+  "slug": "cert-06",
+  "title": "注册商标 盘古华云（第9类）",
+  "summary": "",
+  "category": null,
+  "sort": 6,
+  "featured": false,
+  "publishedAt": "2019-04-07",
+  "expiresAt": "2029-04-06",
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "number": "第32282717号",
+   "note": "",
+   "image": {
+    "src": "/media/about/honor/cert/cert_trademark_03.webp",
+    "w": 500,
+    "h": 711,
+    "thumb": "/media/about/honor/cert/cert_trademark_03-thumb.webp"
+   }
+  }
+ }
+]

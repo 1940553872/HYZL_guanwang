@@ -1,0 +1,290 @@
+[
+ {
+  "type": "patent",
+  "slug": "patent-01",
+  "title": "一种用于山体滑坡的监测数据处理方法",
+  "summary": "",
+  "category": "invention",
+  "sort": 1,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "number": "ZL 2023 1 0767064.3",
+   "kind": "invention",
+   "state": "granted",
+   "image": {
+    "src": "/media/about/honor/patent/patent_01.webp",
+    "w": 420,
+    "h": 594,
+    "thumb": "/media/about/honor/patent/patent_01-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "patent",
+  "slug": "patent-02",
+  "title": "一种基于数据分析的山体滑坡智能形变监管系统",
+  "summary": "",
+  "category": "invention",
+  "sort": 2,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "number": "ZL 2023 1 0669623.7",
+   "kind": "invention",
+   "state": "granted",
+   "image": {
+    "src": "/media/about/honor/patent/patent_02.webp",
+    "w": 420,
+    "h": 594,
+    "thumb": "/media/about/honor/patent/patent_02-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "patent",
+  "slug": "patent-03",
+  "title": "一种应用于振动筛的杂物清理装置",
+  "summary": "",
+  "category": "invention",
+  "sort": 3,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "number": "ZL 2023 1 0572352.3",
+   "kind": "invention",
+   "state": "granted",
+   "image": {
+    "src": "/media/about/honor/patent/patent_03.webp",
+    "w": 420,
+    "h": 598,
+    "thumb": "/media/about/honor/patent/patent_03-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "patent",
+  "slug": "patent-04",
+  "title": "一种电机故障分析方法",
+  "summary": "",
+  "category": "invention",
+  "sort": 4,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "number": "ZL 2023 1 0684706.3",
+   "kind": "invention",
+   "state": "granted",
+   "image": {
+    "src": "/media/about/honor/patent/patent_04.webp",
+    "w": 420,
+    "h": 592,
+    "thumb": "/media/about/honor/patent/patent_04-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "patent",
+  "slug": "patent-05",
+  "title": "一种剃齿加工参数全局优化设计方法",
+  "summary": "",
+  "category": "invention",
+  "sort": 5,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "number": "ZL 2021 1 0231647.5",
+   "kind": "invention",
+   "state": "granted",
+   "image": {
+    "src": "/media/about/honor/patent/patent_05.webp",
+    "w": 420,
+    "h": 589,
+    "thumb": "/media/about/honor/patent/patent_05-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "patent",
+  "slug": "patent-06",
+  "title": "安装于矿井巷道的危险区域提醒装置",
+  "summary": "",
+  "category": "utility",
+  "sort": 6,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "number": "ZL 2022 2 1201032.4",
+   "kind": "utility",
+   "state": "granted",
+   "image": {
+    "src": "/media/about/honor/patent/patent_06.webp",
+    "w": 420,
+    "h": 597,
+    "thumb": "/media/about/honor/patent/patent_06-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "patent",
+  "slug": "patent-07",
+  "title": "一种多合一的无线文物环境检测器及文物储藏柜",
+  "summary": "",
+  "category": "utility",
+  "sort": 7,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "number": "ZL 2019 2 0628344.5",
+   "kind": "utility",
+   "state": "granted",
+   "image": {
+    "src": "/media/about/honor/patent/patent_07.webp",
+    "w": 420,
+    "h": 590,
+    "thumb": "/media/about/honor/patent/patent_07-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "patent",
+  "slug": "patent-08",
+  "title": "一种应对矿井致灾气体的应急逃生路线的生成装置及方法",
+  "summary": "",
+  "category": "invention",
+  "sort": 8,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "number": "202210759602.X",
+   "kind": "invention",
+   "state": "pending",
+   "image": {
+    "src": "/media/about/honor/patent/patent_08.webp",
+    "w": 420,
+    "h": 590,
+    "thumb": "/media/about/honor/patent/patent_08-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "patent",
+  "slug": "patent-09",
+  "title": "一种基于GIS的巷道涌水提醒和避灾路线设计的装置",
+  "summary": "",
+  "category": "invention",
+  "sort": 9,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "number": "202210762443.9",
+   "kind": "invention",
+   "state": "pending",
+   "image": {
+    "src": "/media/about/honor/patent/patent_09.webp",
+    "w": 420,
+    "h": 597,
+    "thumb": "/media/about/honor/patent/patent_09-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "patent",
+  "slug": "patent-10",
+  "title": "应用于矿井下的危险区域提醒方法、装置及计算机系统",
+  "summary": "",
+  "category": "invention",
+  "sort": 10,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "number": "202210466748.5",
+   "kind": "invention",
+   "state": "pending",
+   "image": {
+    "src": "/media/about/honor/patent/patent_10.webp",
+    "w": 420,
+    "h": 592,
+    "thumb": "/media/about/honor/patent/patent_10-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "patent",
+  "slug": "patent-11",
+  "title": "一种数据处理方法及模块、计算平台及工业物联网",
+  "summary": "",
+  "category": "invention",
+  "sort": 11,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "number": "201810756810.8",
+   "kind": "invention",
+   "state": "pending",
+   "image": {
+    "src": "/media/about/honor/patent/patent_11.webp",
+    "w": 420,
+    "h": 578,
+    "thumb": "/media/about/honor/patent/patent_11-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "patent",
+  "slug": "patent-12",
+  "title": "用于电子设备的工业智能体交互图形用户界面",
+  "summary": "",
+  "category": "design",
+  "sort": 12,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "number": "外观设计专利",
+   "kind": "design",
+   "state": "granted",
+   "image": {
+    "src": "/media/about/honor/patent/patent_12.webp",
+    "w": 420,
+    "h": 582,
+    "thumb": "/media/about/honor/patent/patent_12-thumb.webp"
+   }
+  }
+ }
+]

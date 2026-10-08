@@ -1,0 +1,6 @@
+# 生产 / Docker：PostgreSQL 16+
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/hyzl}
+    username: ${DB_USER:hyzl}
+    password: ${DB_PASSWORD:hyzl}

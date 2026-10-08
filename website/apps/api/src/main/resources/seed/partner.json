@@ -1,0 +1,862 @@
+[
+ {
+  "type": "partner",
+  "slug": "partner-01",
+  "title": "北京大学",
+  "summary": "",
+  "category": "university",
+  "sort": 1,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_01.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-02",
+  "title": "南开大学",
+  "summary": "",
+  "category": "university",
+  "sort": 2,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_02.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-03",
+  "title": "西安交通大学",
+  "summary": "",
+  "category": "university",
+  "sort": 3,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_03.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-04",
+  "title": "长安大学",
+  "summary": "",
+  "category": "university",
+  "sort": 4,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_04.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-05",
+  "title": "北京航空航天大学",
+  "summary": "",
+  "category": "university",
+  "sort": 5,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_05.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-06",
+  "title": "西北工业大学",
+  "summary": "",
+  "category": "university",
+  "sort": 6,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_06.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-07",
+  "title": "西安理工大学",
+  "summary": "",
+  "category": "university",
+  "sort": 7,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_07.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-08",
+  "title": "中国民航大学",
+  "summary": "",
+  "category": "university",
+  "sort": 8,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_08.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-09",
+  "title": "西安建筑科技大学",
+  "summary": "",
+  "category": "university",
+  "sort": 9,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_09.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-10",
+  "title": "西安财经学院",
+  "summary": "",
+  "category": "university",
+  "sort": 10,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_10.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-11",
+  "title": "中国石油",
+  "summary": "",
+  "category": "industry",
+  "sort": 11,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_11.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-12",
+  "title": "中国海油",
+  "summary": "",
+  "category": "industry",
+  "sort": 12,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_12.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-13",
+  "title": "中国电子",
+  "summary": "",
+  "category": "industry",
+  "sort": 13,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_13.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-14",
+  "title": "中国神华",
+  "summary": "",
+  "category": "industry",
+  "sort": 14,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_14.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-15",
+  "title": "中国电信",
+  "summary": "",
+  "category": "industry",
+  "sort": 15,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_15.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-16",
+  "title": "中国移动",
+  "summary": "",
+  "category": "industry",
+  "sort": 16,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_16.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-17",
+  "title": "中国联通",
+  "summary": "",
+  "category": "industry",
+  "sort": 17,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_17.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-18",
+  "title": "中国航天科工集团",
+  "summary": "",
+  "category": "industry",
+  "sort": 18,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_18.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-19",
+  "title": "陕西煤业化工集团",
+  "summary": "",
+  "category": "industry",
+  "sort": 19,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_19.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-20",
+  "title": "友发钢管集团",
+  "summary": "",
+  "category": "industry",
+  "sort": 20,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_20.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-21",
+  "title": "西安水务集团",
+  "summary": "",
+  "category": "industry",
+  "sort": 21,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_21.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-22",
+  "title": "国家制造强国建设战略咨询委员会",
+  "summary": "",
+  "category": "research",
+  "sort": 22,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_22.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-23",
+  "title": "中国信息通信研究院",
+  "summary": "",
+  "category": "research",
+  "sort": 23,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_23.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-24",
+  "title": "中国工程院",
+  "summary": "",
+  "category": "research",
+  "sort": 24,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_24.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-25",
+  "title": "中国信息安全测评中心",
+  "summary": "",
+  "category": "research",
+  "sort": 25,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_25.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-26",
+  "title": "中国自动化学会",
+  "summary": "",
+  "category": "research",
+  "sort": 26,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_26.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-27",
+  "title": "CSTC",
+  "summary": "",
+  "category": "research",
+  "sort": 27,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_27.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-28",
+  "title": "中国机械工程学会",
+  "summary": "",
+  "category": "research",
+  "sort": 28,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_28.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-29",
+  "title": "工信部电子第一研究所",
+  "summary": "",
+  "category": "research",
+  "sort": 29,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_29.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-30",
+  "title": "中国科学院",
+  "summary": "",
+  "category": "research",
+  "sort": 30,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_30.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-31",
+  "title": "工业大数据应用技术国家工程实验室",
+  "summary": "",
+  "category": "research",
+  "sort": 31,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_31.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-32",
+  "title": "国家信息技术安全研究中心",
+  "summary": "",
+  "category": "research",
+  "sort": 32,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_32.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-33",
+  "title": "陕西工业互联网研究院",
+  "summary": "",
+  "category": "research",
+  "sort": 33,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_33.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-34",
+  "title": "陕西工业互联网联合实验室",
+  "summary": "",
+  "category": "research",
+  "sort": 34,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_34.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-35",
+  "title": "Siemens",
+  "summary": "",
+  "category": "integrator",
+  "sort": 35,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_35.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-36",
+  "title": "Honeywell",
+  "summary": "",
+  "category": "integrator",
+  "sort": 36,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_36.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-37",
+  "title": "Emerson",
+  "summary": "",
+  "category": "integrator",
+  "sort": 37,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_37.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-38",
+  "title": "Endress+Hauser",
+  "summary": "",
+  "category": "integrator",
+  "sort": 38,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_38.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-39",
+  "title": "Yokogawa",
+  "summary": "",
+  "category": "integrator",
+  "sort": 39,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_39.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-40",
+  "title": "Mitsubishi Electric",
+  "summary": "",
+  "category": "integrator",
+  "sort": 40,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_40.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-41",
+  "title": "Schneider Electric",
+  "summary": "",
+  "category": "integrator",
+  "sort": 41,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_41.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-42",
+  "title": "OMRON",
+  "summary": "",
+  "category": "integrator",
+  "sort": 42,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_42.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ },
+ {
+  "type": "partner",
+  "slug": "partner-43",
+  "title": "HACH",
+  "summary": "",
+  "category": "integrator",
+  "sort": 43,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "logo": {
+    "src": "/media/about/introduce/Logo_43.webp",
+    "w": 686,
+    "h": 170
+   }
+  }
+ }
+]

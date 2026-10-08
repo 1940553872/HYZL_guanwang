@@ -1,0 +1,185 @@
+[
+ {
+  "type": "case",
+  "slug": "embodied-energy-safety",
+  "title": "多能源勘探、开采和加工过程安全的具身智能场景验证",
+  "summary": "陕西延长石油、陕西联通、华云智联以及京、陕高校联合研发，入选陕西省首批15个重大创新应用场景。",
+  "category": "petrochemical",
+  "sort": 1,
+  "featured": true,
+  "publishedAt": "2026-07-22",
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "customer": "陕西延长石油、陕西联通及京、陕高校联合项目",
+   "scenario": "具身智能 · 安全生产",
+   "challenge": "国家多能源勘探、开采和加工过程中的安全生产需要可验证、可推广的具身智能应用场景。",
+   "solution": "华云智联提供行业具身智能软件和场景验证工作，依托空间群弈™具身之弈的UAV/UGV混合监管—执行能力。",
+   "timeline": [
+    {
+     "date": "2026-07-22",
+     "text": "陕西省发展改革委全省创新应用场景发布大会发布首批15个重大创新应用场景，本项目入选。"
+    }
+   ],
+   "results": [],
+   "products": [
+    "spatigo-embodied",
+    "spatigo-safety",
+    "imllm"
+   ],
+   "image": {
+    "src": "/media/product/v2/swarm.webp",
+    "w": 1286,
+    "h": 644
+   }
+  }
+ },
+ {
+  "type": "case",
+  "slug": "oilfield-special-operations",
+  "title": "油田特种作业全流程智能化管控",
+  "summary": "工业增强语言模型与智能体群控系统支撑长庆油田特种作业事前、事中、事后全流程智能化管控。",
+  "category": "petrochemical",
+  "sort": 2,
+  "featured": true,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "customer": "长庆油田（据官网产品介绍）",
+   "scenario": "特种作业监管",
+   "challenge": "特种作业环节多、风险高，依赖人工旁站监护，作业准备、违章识别与结果核查难以闭环。",
+   "solution": "工业增强LLM理解油田作业术语、违章描述与场景指令，实现“目标物—场景—行为”一体化分析；群控系统打通集团特种作业管理、运营管理与风险隐患识别系统，形成事前作业准备指导、事中违章识别与同步报警、事后作业结果汇总的安全审验闭环，异常时人在环上核查。",
+   "timeline": [],
+   "results": [],
+   "products": [
+    "imllm",
+    "spatigo-safety"
+   ],
+   "image": {
+    "src": "/media/product/v2/llm.webp",
+    "w": 1269,
+    "h": 720
+   }
+  }
+ },
+ {
+  "type": "case",
+  "slug": "huda-aisheng",
+  "title": "湖大艾盛注塑件云制造方案",
+  "summary": "助力云制造落地湖南汽车内饰注塑件行业。",
+  "category": "legacy",
+  "sort": 101,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": true,
+  "data": {
+   "customer": "湖大艾盛",
+   "scenario": "工业云",
+   "challenge": "",
+   "solution": "帮助湖大艾盛达成企业经营目标：产线稼动率提高3%；产品合格率提高5%；用工人数减少10人；能源节约（换算标准煤）3万吨/年；尝试实现支持NB-IoT协议传感器（温度、物位）的组网及接入；帮助培养工业云管理及操作人员；归纳总结长株潭地区汽车内饰注塑件生产企业通过云制造提高竞争力的有效路径。",
+   "results": [],
+   "products": [],
+   "legacy": true,
+   "images": [
+    {
+     "src": "/media/about/display/photo_01.webp",
+     "w": 686,
+     "h": 398
+    },
+    {
+     "src": "/media/about/display/photo_02.webp",
+     "w": 690,
+     "h": 399
+    }
+   ],
+   "image": {
+    "src": "/media/about/display/photo_01.webp",
+    "w": 686,
+    "h": 398
+   }
+  }
+ },
+ {
+  "type": "case",
+  "slug": "great-wall-finance",
+  "title": "长城金融设备云运维方案",
+  "summary": "设备集中管理、质量管理分析与微信工单监控。",
+  "category": "legacy",
+  "sort": 102,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": true,
+  "data": {
+   "customer": "长城金融",
+   "scenario": "工业云",
+   "challenge": "",
+   "solution": "长沙工业云平台与长城金融合作，设备云运维系统采用移动互联、工业4.0、云服务、大数据分析等技术实现设备集中管理、质量管理分析、微信工单大数据监控，提高运维服务效率、降低运维成本。",
+   "results": [],
+   "products": [],
+   "legacy": true,
+   "images": [
+    {
+     "src": "/media/about/display/photo_03.webp",
+     "w": 686,
+     "h": 398
+    },
+    {
+     "src": "/media/about/display/photo_04.webp",
+     "w": 690,
+     "h": 399
+    }
+   ],
+   "image": {
+    "src": "/media/about/display/photo_03.webp",
+    "w": 686,
+    "h": 398
+   }
+  }
+ },
+ {
+  "type": "case",
+  "slug": "clp-software-park",
+  "title": "中电软件园云园区方案",
+  "summary": "智慧园区基础设施与信息化运营。",
+  "category": "legacy",
+  "sort": 103,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": true,
+  "data": {
+   "customer": "中电软件园",
+   "scenario": "工业云",
+   "challenge": "",
+   "solution": "中电软件园智慧园区解决方案运用长沙工业云平台，通过智能化的园区基础设施、信息化的运营管理工具，专业化的业务流程设计提升了园区服务品质，提高了运作效率，辅助了科学策略，控制了前期建设成本、建设后期运维成本以及后期的增值效益。",
+   "results": [],
+   "products": [],
+   "legacy": true,
+   "images": [
+    {
+     "src": "/media/about/display/photo_05.webp",
+     "w": 686,
+     "h": 398
+    },
+    {
+     "src": "/media/about/display/photo_06.webp",
+     "w": 690,
+     "h": 399
+    }
+   ],
+   "image": {
+    "src": "/media/about/display/photo_05.webp",
+    "w": 686,
+    "h": 398
+   }
+  }
+ }
+]

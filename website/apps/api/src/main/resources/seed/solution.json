@@ -1,0 +1,184 @@
+[
+ {
+  "type": "solution",
+  "slug": "mining-power",
+  "title": "矿山与电力",
+  "summary": "矿山能源多元灾害环境下的安全生产、装备预测性维护与无人值守。",
+  "category": null,
+  "sort": 1,
+  "featured": true,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "paras": [
+    "华云智联承担了“煤炭物联网工业数据接入及边缘计算平台”“面向国家矿山能源多元灾害环境的工业互联网+安全生产解决方案”等国家级与省级项目。",
+    "形成掘进、采煤装备预测性维护及远程智能监控，皮带智能综合保护，灾害感知预警预测，智慧矿山数字孪生等系统。"
+   ],
+   "products": [
+    "maintenance-agent",
+    "emergency-agent",
+    "belt-unattended",
+    "irim",
+    "iess",
+    "spatigo-maintenance"
+   ],
+   "scenarios": [
+    "设备健康与预测性维护",
+    "安全应急",
+    "无人巡检与具身作业"
+   ]
+  }
+ },
+ {
+  "type": "solution",
+  "slug": "petrochemical",
+  "title": "石油化工",
+  "summary": "油气田特种作业监管、化工安全应急与装置数字孪生。",
+  "category": null,
+  "sort": 2,
+  "featured": true,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "paras": [
+    "工业增强语言模型支撑长庆油田特种作业全流程智能化管控；参与的具身智能场景验证项目入选陕西省首批15个重大创新应用场景。",
+    "提供化工安全应急与设备健康专有知识库构建、先进过程报警管理与装置数字孪生。"
+   ],
+   "products": [
+    "imllm",
+    "spatigo-safety",
+    "spatigo-embodied",
+    "iapams",
+    "idcs",
+    "device-twin"
+   ],
+   "scenarios": [
+    "安全应急",
+    "工艺优化",
+    "无人巡检与具身作业"
+   ]
+  }
+ },
+ {
+  "type": "solution",
+  "slug": "aerospace-equipment",
+  "title": "航空航天与装备制造",
+  "summary": "研制生产过程的质量识别、仓储调度与全生命周期管理。",
+  "category": null,
+  "sort": 3,
+  "featured": true,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "paras": [
+    "智能仓储调度智能体支持原套（整套产品）装配出入库、设计变更与批次升级管理，以及宇航元器件、火箭燃料等物资的独立成本核算。",
+    "产品全生命周期管理与生产执行系统覆盖设计、工艺、生产到质量追溯。"
+   ],
+   "products": [
+    "warehouse-agent",
+    "quality-agent",
+    "iplm",
+    "imes",
+    "spatigo-quality"
+   ],
+   "scenarios": [
+    "质量提升",
+    "生产经营管理"
+   ]
+  }
+ },
+ {
+  "type": "solution",
+  "slug": "steel-metallurgy",
+  "title": "钢铁冶金",
+  "summary": "连续生产装备的健康管理、能源管理与先进过程控制。",
+  "category": null,
+  "sort": 4,
+  "featured": true,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "paras": [
+    "设备预测性维护智能体以非侵入方式采集三相电流与振动信号，覆盖电机、泵、风机等关键设备。",
+    "能源管理与先进过程控制系统面向非线性、大滞后、强干扰和变量耦合的工艺单元。"
+   ],
+   "products": [
+    "maintenance-agent",
+    "iems",
+    "iapc",
+    "ielms",
+    "spatigo-maintenance"
+   ],
+   "scenarios": [
+    "设备健康与预测性维护",
+    "工艺优化"
+   ]
+  }
+ },
+ {
+  "type": "solution",
+  "slug": "tobacco-food",
+  "title": "烟草与食药制造",
+  "summary": "制程质量检测、生产标准化与办公智能化。",
+  "category": null,
+  "sort": 5,
+  "featured": true,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "paras": [
+    "AI质量识别智能体基于非接触式图像/视频检测，识别表面斑点、霉变、颜色差异、结块等缺陷。",
+    "虚拟数字员工系统提供烟草流程标准化查询与典型工艺异常问题的参考方案。"
+   ],
+   "products": [
+    "quality-agent",
+    "digital-employee",
+    "production-agent",
+    "iqms",
+    "spatigo-quality"
+   ],
+   "scenarios": [
+    "质量提升",
+    "生产经营管理"
+   ]
+  }
+ },
+ {
+  "type": "solution",
+  "slug": "water-municipal",
+  "title": "水务与市政",
+  "summary": "水厂生产执行、水质监测与能耗管理。",
+  "category": null,
+  "sort": 6,
+  "featured": true,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "paras": [
+    "已形成再生水厂、污水厂、自来水厂的水质监测、生产执行与能源管理系列软件。"
+   ],
+   "products": [
+    "imes",
+    "iems",
+    "ielms",
+    "iess"
+   ],
+   "scenarios": [
+    "生产经营管理",
+    "设备健康与预测性维护"
+   ]
+  }
+ }
+]
