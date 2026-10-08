@@ -1,0 +1,32 @@
+{
+  "name": "hyzl-web",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "华云智联官网 V2.0 前端（Nuxt 4 / Vue 3，design_document/K-04）",
+  "scripts": {
+    "dev": "nuxt dev --port 3000",
+    "build": "nuxt build",
+    "start": "node .output/server/index.mjs",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.3.0",
+    "nuxt": "4.6.0",
+    "reka-ui": "2.11.0",
+    "vue": "3.5.43",
+    "vue-router": "^4.6.0",
+    "web-vitals": "6.2.3",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "@tailwindcss/vite": "4.3.3",
+    "tailwindcss": "4.3.3",
+    "typescript": "~5.9.3",
+    "vitest": "5.0.3"
+  }
+}

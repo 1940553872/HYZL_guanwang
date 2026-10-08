@@ -1,0 +1,324 @@
+[
+ {
+  "type": "award",
+  "slug": "award-01",
+  "title": "陕西省科学技术进步奖",
+  "summary": "",
+  "category": "二等奖",
+  "sort": 1,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "grade": "二等奖",
+   "year": "2020",
+   "image": {
+    "src": "/media/about/honor/award/award_sx_progress_2nd.webp",
+    "w": 620,
+    "h": 836,
+    "thumb": "/media/about/honor/award/award_sx_progress_2nd-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "award",
+  "slug": "award-02",
+  "title": "中央军委科学技术委员会",
+  "summary": "",
+  "category": "三等奖",
+  "sort": 2,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "grade": "三等奖",
+   "year": "2019-2020",
+   "image": {
+    "src": "/media/about/honor/award/award_central_military_3rd.webp",
+    "w": 620,
+    "h": 853,
+    "thumb": "/media/about/honor/award/award_central_military_3rd-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "award",
+  "slug": "award-03",
+  "title": "中国煤炭工业科协技术奖",
+  "summary": "",
+  "category": "二等奖",
+  "sort": 3,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "grade": "二等奖",
+   "year": "2019-2020",
+   "image": {
+    "src": "/media/about/honor/award/award_coal_sci_2nd.webp",
+    "w": 620,
+    "h": 948,
+    "thumb": "/media/about/honor/award/award_coal_sci_2nd-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "award",
+  "slug": "award-04",
+  "title": "第四届“绽放杯”5G应用征集大赛",
+  "summary": "",
+  "category": "优秀奖",
+  "sort": 4,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "grade": "优秀奖",
+   "year": "2021",
+   "image": {
+    "src": "/media/about/honor/award/award_bloom4_excellent.webp",
+    "w": 620,
+    "h": 465,
+    "thumb": "/media/about/honor/award/award_bloom4_excellent-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "award",
+  "slug": "award-05",
+  "title": "陕西省科技工作者创新创业大赛",
+  "summary": "",
+  "category": "一等奖",
+  "sort": 5,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "grade": "一等奖",
+   "year": "2021",
+   "image": {
+    "src": "/media/about/honor/award/award_2021sx_first.webp",
+    "w": 620,
+    "h": 422,
+    "thumb": "/media/about/honor/award/award_2021sx_first-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "award",
+  "slug": "award-06",
+  "title": "第五届“绽放杯”5G应用征集大赛",
+  "summary": "",
+  "category": "一等奖",
+  "sort": 6,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "grade": "一等奖",
+   "year": "2022",
+   "image": {
+    "src": "/media/about/honor/award/award_bloom5_gold.webp",
+    "w": 620,
+    "h": 440,
+    "thumb": "/media/about/honor/award/award_bloom5_gold-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "award",
+  "slug": "award-07",
+  "title": "第二届工业数字孪生大赛",
+  "summary": "",
+  "category": "三等奖",
+  "sort": 7,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "grade": "三等奖",
+   "year": "2022",
+   "image": {
+    "src": "/media/about/honor/award/award_dt_2nd_3rd.webp",
+    "w": 620,
+    "h": 803,
+    "thumb": "/media/about/honor/award/award_dt_2nd_3rd-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "award",
+  "slug": "award-08",
+  "title": "第三届工业数字孪生大赛",
+  "summary": "",
+  "category": "三等奖",
+  "sort": 8,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "grade": "三等奖",
+   "year": "2023",
+   "image": {
+    "src": "/media/about/honor/award/award_dt_3rd_3rd.webp",
+    "w": 620,
+    "h": 877,
+    "thumb": "/media/about/honor/award/award_dt_3rd_3rd-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "award",
+  "slug": "award-09",
+  "title": "陕西省科技工作者创新创业大赛",
+  "summary": "",
+  "category": "二等奖",
+  "sort": 9,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "grade": "二等奖",
+   "year": "2024",
+   "image": {
+    "src": "/media/about/honor/award/award_2024sx_2nd.webp",
+    "w": 620,
+    "h": 443,
+    "thumb": "/media/about/honor/award/award_2024sx_2nd-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "award",
+  "slug": "award-10",
+  "title": "陕西省企业“三新三小”创新竞赛项目",
+  "summary": "",
+  "category": "一等奖",
+  "sort": 10,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "grade": "一等奖",
+   "year": "2024",
+   "image": {
+    "src": "/media/about/honor/award/award_2024sx3n_first.webp",
+    "w": 620,
+    "h": 442,
+    "thumb": "/media/about/honor/award/award_2024sx3n_first-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "award",
+  "slug": "award-11",
+  "title": "“沣东杯”陕西省科技工作者创新创业大赛",
+  "summary": "",
+  "category": "银奖",
+  "sort": 11,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "grade": "银奖",
+   "year": "2019",
+   "image": {
+    "src": "/media/about/honor/award/award_2019_fengdong_silver.webp",
+    "w": 620,
+    "h": 438,
+    "thumb": "/media/about/honor/award/award_2019_fengdong_silver-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "award",
+  "slug": "award-12",
+  "title": "第三届琶洲算法大赛",
+  "summary": "",
+  "category": "季军",
+  "sort": 12,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "grade": "季军",
+   "year": "2025",
+   "image": {
+    "src": "/media/about/honor/award/award_pazhou_third.webp",
+    "w": 539,
+    "h": 762,
+    "thumb": "/media/about/honor/award/award_pazhou_third-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "award",
+  "slug": "award-13",
+  "title": "数字中国创新大赛·人工智能赛道",
+  "summary": "",
+  "category": "三等奖",
+  "sort": 13,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "grade": "三等奖",
+   "year": "2025",
+   "image": {
+    "src": "/media/about/honor/award/award_digital_china_3rd.webp",
+    "w": 620,
+    "h": 462,
+    "thumb": "/media/about/honor/award/award_digital_china_3rd-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "award",
+  "slug": "award-14",
+  "title": "第四届全国数字孪生大赛",
+  "summary": "",
+  "category": "三等奖",
+  "sort": 14,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "grade": "三等奖",
+   "year": "2025",
+   "image": {
+    "src": "/media/about/honor/award/award_dt_4th_3rd.webp",
+    "w": 620,
+    "h": 886,
+    "thumb": "/media/about/honor/award/award_dt_4th_3rd-thumb.webp"
+   }
+  }
+ }
+]

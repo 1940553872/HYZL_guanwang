@@ -1,0 +1,11 @@
+# 运行时与构建产物
+.run/
+data/
+apps/api/target/
+apps/web/node_modules/
+apps/web/.nuxt/
+apps/web/.output/
+apps/web/test-results/
+apps/web/playwright-report/
+*.log
+tools/__pycache__/

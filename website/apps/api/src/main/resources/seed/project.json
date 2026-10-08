@@ -1,0 +1,338 @@
+[
+ {
+  "type": "project",
+  "slug": "project-01",
+  "title": "延长石油煤电油化复合场景5G+网业融通建设",
+  "summary": "",
+  "category": "national",
+  "sort": 1,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "level": "national",
+   "year": 2022,
+   "source": "国家发改委新基建",
+   "role": "课题负责人",
+   "status": "closed",
+   "amountWan": 244.59
+  }
+ },
+ {
+  "type": "project",
+  "slug": "project-02",
+  "title": "区域一体化工业互联网公共服务平台——面向西部能源化工聚集区工业互联网公共服务平台",
+  "summary": "",
+  "category": "national",
+  "sort": 2,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "level": "national",
+   "year": 2020,
+   "source": "工信部创新发展",
+   "role": "课题负责人",
+   "status": "closed",
+   "amountWan": 32.0
+  }
+ },
+ {
+  "type": "project",
+  "slug": "project-03",
+  "title": "面向网络协同制造的云网边端跨域可信接入与服务安全技术",
+  "summary": "",
+  "category": "national",
+  "sort": 3,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "level": "national",
+   "year": 2022,
+   "source": "科技部重点研发",
+   "role": "技术骨干",
+   "status": "closed",
+   "amountWan": 65.0
+  }
+ },
+ {
+  "type": "project",
+  "slug": "project-04",
+  "title": "煤炭物联网工业数据接入及边缘计算平台",
+  "summary": "",
+  "category": "national",
+  "sort": 4,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "level": "national",
+   "year": 2018,
+   "source": "工信部物联网集成创新（国家级示范）",
+   "role": "课题负责人",
+   "status": "closed",
+   "amountWan": null
+  }
+ },
+ {
+  "type": "project",
+  "slug": "project-05",
+  "title": "IoT边缘端红外-可见光异构图像传感单元及AI处理系统",
+  "summary": "",
+  "category": "national",
+  "sort": 5,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "level": "national",
+   "year": 2019,
+   "source": "工信部物联网关键技术（国家级示范）",
+   "role": "课题负责人",
+   "status": "closed",
+   "amountWan": null
+  }
+ },
+ {
+  "type": "project",
+  "slug": "project-06",
+  "title": "面向国家矿山能源多元灾害环境的工业互联网+安全生产解决方案",
+  "summary": "",
+  "category": "national",
+  "sort": 6,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "level": "national",
+   "year": 2021,
+   "source": "工信部工业互联网试点（国家级示范）",
+   "role": "课题负责人",
+   "status": "closed",
+   "amountWan": null
+  }
+ },
+ {
+  "type": "project",
+  "slug": "project-07",
+  "title": "基于AI及煤炭CPS的采掘装备智能化及其监控技术",
+  "summary": "",
+  "category": "provincial",
+  "sort": 7,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "level": "provincial",
+   "year": 2019,
+   "source": "陕西省自然科学基金",
+   "role": "课题负责人",
+   "status": "closed",
+   "amountWan": 50.0
+  }
+ },
+ {
+  "type": "project",
+  "slug": "project-08",
+  "title": "面向工业互联网边缘端的制造图像智能感知与处理技术研究",
+  "summary": "",
+  "category": "provincial",
+  "sort": 8,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "level": "provincial",
+   "year": 2020,
+   "source": "陕西省重点研发计划",
+   "role": "课题负责人",
+   "status": "closed",
+   "amountWan": 20.0
+  }
+ },
+ {
+  "type": "project",
+  "slug": "project-09",
+  "title": "智能制造中多源设备接入与智能计算物联网技术研究",
+  "summary": "",
+  "category": "provincial",
+  "sort": 9,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "level": "provincial",
+   "year": 2020,
+   "source": "陕西省重点研发计划",
+   "role": "课题负责人",
+   "status": "closed",
+   "amountWan": 20.0
+  }
+ },
+ {
+  "type": "project",
+  "slug": "project-10",
+  "title": "断路/断电/断网等重大突发事件快速恢复应急通信解决方案研究",
+  "summary": "",
+  "category": "provincial",
+  "sort": 10,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "level": "provincial",
+   "year": 2021,
+   "source": "陕西省应急管理科技攻关",
+   "role": "课题负责人",
+   "status": "closed",
+   "amountWan": 10.0
+  }
+ },
+ {
+  "type": "project",
+  "slug": "project-11",
+  "title": "陕煤“5G+智慧矿区”项目",
+  "summary": "",
+  "category": "provincial",
+  "sort": 11,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "level": "provincial",
+   "year": 2021,
+   "source": "陕西省5G工业应用试点",
+   "role": "课题负责人",
+   "status": "closed",
+   "amountWan": 60.0
+  }
+ },
+ {
+  "type": "project",
+  "slug": "project-12",
+  "title": "面向国家矿山能源多元灾害环境的工业互联网+安全生产解决方案",
+  "summary": "",
+  "category": "provincial",
+  "sort": 12,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "level": "provincial",
+   "year": 2022,
+   "source": "陕西省工业互联网标杆工厂",
+   "role": "课题负责人",
+   "status": "closed",
+   "amountWan": 40.0
+  }
+ },
+ {
+  "type": "project",
+  "slug": "project-13",
+  "title": "5G+工业互联网技术及应用",
+  "summary": "",
+  "category": "provincial",
+  "sort": 13,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "level": "provincial",
+   "year": 2024,
+   "source": "陕西省重点研发计划",
+   "role": "项目负责人",
+   "status": "ongoing",
+   "amountWan": 80.0
+  }
+ },
+ {
+  "type": "project",
+  "slug": "project-14",
+  "title": "室内广域聚集人员红外成像温度筛查/识别系统",
+  "summary": "",
+  "category": "provincial",
+  "sort": 14,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "level": "provincial",
+   "year": 2020,
+   "source": "西安高新区科技攻关",
+   "role": "项目负责人",
+   "status": "closed",
+   "amountWan": 50.0
+  }
+ },
+ {
+  "type": "project",
+  "slug": "project-15",
+  "title": "面向国家矿山能源多元灾害环境工业互联网+安全生产解决方案",
+  "summary": "",
+  "category": "provincial",
+  "sort": 15,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "level": "provincial",
+   "year": 2022,
+   "source": "陕煤集团科技项目",
+   "role": "项目负责人",
+   "status": "closed",
+   "amountWan": 200.0
+  }
+ },
+ {
+  "type": "project",
+  "slug": "project-16",
+  "title": "基于增强模型和智能体的中国西部工业企业事故灾害数据治理和智能交互技术攻关",
+  "summary": "",
+  "category": "provincial",
+  "sort": 16,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "level": "provincial",
+   "year": 2026,
+   "source": "西安市重点研发计划",
+   "role": "项目负责人",
+   "status": "ongoing",
+   "amountWan": 100.0
+  }
+ }
+]

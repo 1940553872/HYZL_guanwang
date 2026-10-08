@@ -1,0 +1,646 @@
+[
+ {
+  "type": "copyright",
+  "slug": "2023sr0272753",
+  "title": "掘进装备预测性维护及远程智能监控系统 V1.0",
+  "summary": "",
+  "category": "2023",
+  "sort": 1,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2023SR0272753",
+   "year": 2023,
+   "image": {
+    "src": "/media/about/honor/soft/soft_01.webp",
+    "w": 420,
+    "h": 594,
+    "thumb": "/media/about/honor/soft/soft_01-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2023sr0272754",
+  "title": "采煤装备预测性维护及远程智能监控系统 V1.0",
+  "summary": "",
+  "category": "2023",
+  "sort": 2,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2023SR0272754",
+   "year": 2023,
+   "image": {
+    "src": "/media/about/honor/soft/soft_02.webp",
+    "w": 420,
+    "h": 594,
+    "thumb": "/media/about/honor/soft/soft_02-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2023sr0272755",
+  "title": "皮带智能综合保护、预测性维护管理系统 V1.0",
+  "summary": "",
+  "category": "2023",
+  "sort": 3,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2023SR0272755",
+   "year": 2023,
+   "image": {
+    "src": "/media/about/honor/soft/soft_03.webp",
+    "w": 420,
+    "h": 594,
+    "thumb": "/media/about/honor/soft/soft_03-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2023sr0226323",
+  "title": "产品全生命周期管理系统 V1.0",
+  "summary": "",
+  "category": "2023",
+  "sort": 4,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2023SR0226323",
+   "year": 2023,
+   "image": {
+    "src": "/media/about/honor/soft/soft_04.webp",
+    "w": 420,
+    "h": 594,
+    "thumb": "/media/about/honor/soft/soft_04-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2022sr0623453",
+  "title": "洗选煤设备FMEA故障模式及影响分析系统 V1.0",
+  "summary": "",
+  "category": "2022",
+  "sort": 5,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2022SR0623453",
+   "year": 2022,
+   "image": {
+    "src": "/media/about/honor/soft/soft_05.webp",
+    "w": 420,
+    "h": 572,
+    "thumb": "/media/about/honor/soft/soft_05-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2022sr0623466",
+  "title": "灾害感知预警预测系统 V1.0",
+  "summary": "",
+  "category": "2022",
+  "sort": 6,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2022SR0623466",
+   "year": 2022,
+   "image": {
+    "src": "/media/about/honor/soft/soft_06.webp",
+    "w": 420,
+    "h": 573,
+    "thumb": "/media/about/honor/soft/soft_06-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2022sr0557911",
+  "title": "安全风险评估管控系统 V1.0",
+  "summary": "",
+  "category": "2022",
+  "sort": 7,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2022SR0557911",
+   "year": 2022,
+   "image": {
+    "src": "/media/about/honor/soft/soft_07.webp",
+    "w": 420,
+    "h": 574,
+    "thumb": "/media/about/honor/soft/soft_07-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2022sr0557927",
+  "title": "工业带式输送机FMEA故障模式及影响分析系统 V1.0",
+  "summary": "",
+  "category": "2022",
+  "sort": 8,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2022SR0557927",
+   "year": 2022,
+   "image": {
+    "src": "/media/about/honor/soft/soft_08.webp",
+    "w": 420,
+    "h": 573,
+    "thumb": "/media/about/honor/soft/soft_08-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2021sr0644980",
+  "title": "再生水厂水质在线监测数据管理系统 V1.0",
+  "summary": "",
+  "category": "2021",
+  "sort": 9,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2021SR0644980",
+   "year": 2021,
+   "image": {
+    "src": "/media/about/honor/soft/soft_09.webp",
+    "w": 420,
+    "h": 577,
+    "thumb": "/media/about/honor/soft/soft_09-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2021sr0644981",
+  "title": "再生水厂综合生产执行控制系统 V1.0",
+  "summary": "",
+  "category": "2021",
+  "sort": 10,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2021SR0644981",
+   "year": 2021,
+   "image": {
+    "src": "/media/about/honor/soft/soft_10.webp",
+    "w": 420,
+    "h": 578,
+    "thumb": "/media/about/honor/soft/soft_10-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2021sr0640121",
+  "title": "再生水厂能耗监测管理系统 V1.0",
+  "summary": "",
+  "category": "2021",
+  "sort": 11,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2021SR0640121",
+   "year": 2021,
+   "image": {
+    "src": "/media/about/honor/soft/soft_11.webp",
+    "w": 420,
+    "h": 578,
+    "thumb": "/media/about/honor/soft/soft_11-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2021sr0650025",
+  "title": "污水厂水质监测管理系统 V1.0",
+  "summary": "",
+  "category": "2021",
+  "sort": 12,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2021SR0650025",
+   "year": 2021,
+   "image": {
+    "src": "/media/about/honor/soft/soft_12.webp",
+    "w": 420,
+    "h": 578,
+    "thumb": "/media/about/honor/soft/soft_12-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2021sr0644985",
+  "title": "污水厂综合生产操作执行系统 V1.0",
+  "summary": "",
+  "category": "2021",
+  "sort": 13,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2021SR0644985",
+   "year": 2021,
+   "image": {
+    "src": "/media/about/honor/soft/soft_13.webp",
+    "w": 420,
+    "h": 578,
+    "thumb": "/media/about/honor/soft/soft_13-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2021sr0650026",
+  "title": "污水厂综合能源监测管理系统 V1.0",
+  "summary": "",
+  "category": "2021",
+  "sort": 14,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2021SR0650026",
+   "year": 2021,
+   "image": {
+    "src": "/media/about/honor/soft/soft_14.webp",
+    "w": 420,
+    "h": 578,
+    "thumb": "/media/about/honor/soft/soft_14-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2021sr0635335",
+  "title": "自来水厂水处理综合监测系统 V1.0",
+  "summary": "",
+  "category": "2021",
+  "sort": 15,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2021SR0635335",
+   "year": 2021,
+   "image": {
+    "src": "/media/about/honor/soft/soft_15.webp",
+    "w": 420,
+    "h": 578,
+    "thumb": "/media/about/honor/soft/soft_15-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2021sr0640120",
+  "title": "自来水厂生产管理系统 V1.0",
+  "summary": "",
+  "category": "2021",
+  "sort": 16,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2021SR0640120",
+   "year": 2021,
+   "image": {
+    "src": "/media/about/honor/soft/soft_16.webp",
+    "w": 420,
+    "h": 578,
+    "thumb": "/media/about/honor/soft/soft_16-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2021sr0644982",
+  "title": "自来水厂能源综合管理系统 V1.0",
+  "summary": "",
+  "category": "2021",
+  "sort": 17,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2021SR0644982",
+   "year": 2021,
+   "image": {
+    "src": "/media/about/honor/soft/soft_17.webp",
+    "w": 420,
+    "h": 577,
+    "thumb": "/media/about/honor/soft/soft_17-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2021sr0617481",
+  "title": "设备全生命周期管理系统 V1.0",
+  "summary": "",
+  "category": "2021",
+  "sort": 18,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2021SR0617481",
+   "year": 2021,
+   "image": {
+    "src": "/media/about/honor/soft/soft_18.webp",
+    "w": 420,
+    "h": 578,
+    "thumb": "/media/about/honor/soft/soft_18-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2021sr0556274",
+  "title": "基于4D-GIS和知识图谱的矿井生产执行系统 V2.0",
+  "summary": "",
+  "category": "2021",
+  "sort": 19,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2021SR0556274",
+   "year": 2021,
+   "image": {
+    "src": "/media/about/honor/soft/soft_19.webp",
+    "w": 420,
+    "h": 578,
+    "thumb": "/media/about/honor/soft/soft_19-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2021sr0414626",
+  "title": "井下高清视频图像5G传输应用系统 V1.0",
+  "summary": "",
+  "category": "2021",
+  "sort": 20,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2021SR0414626",
+   "year": 2021,
+   "image": {
+    "src": "/media/about/honor/soft/soft_20.webp",
+    "w": 420,
+    "h": 543,
+    "thumb": "/media/about/honor/soft/soft_20-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2023sr0226457",
+  "title": "智慧矿山综合管理APP V1.0",
+  "summary": "",
+  "category": "2023",
+  "sort": 21,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2023SR0226457",
+   "year": 2023,
+   "image": {
+    "src": "/media/about/honor/soft/soft_21.webp",
+    "w": 420,
+    "h": 594,
+    "thumb": "/media/about/honor/soft/soft_21-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2022sr1358621",
+  "title": "智慧矿山数字孪生应用系统 V1.0",
+  "summary": "",
+  "category": "2022",
+  "sort": 22,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2022SR1358621",
+   "year": 2022,
+   "image": {
+    "src": "/media/about/honor/soft/soft_22.webp",
+    "w": 420,
+    "h": 573,
+    "thumb": "/media/about/honor/soft/soft_22-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2026sr0578220",
+  "title": "多模态信息融合工业智能体群控系统 V1.0",
+  "summary": "",
+  "category": "2026",
+  "sort": 23,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2026SR0578220",
+   "year": 2026,
+   "image": {
+    "src": "/media/about/honor/soft/soft_23.webp",
+    "w": 420,
+    "h": 572,
+    "thumb": "/media/about/honor/soft/soft_23-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2025sr0987256",
+  "title": "盘古华云工业控制引擎软件 V1.0",
+  "summary": "",
+  "category": "2025",
+  "sort": 24,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2025SR0987256",
+   "year": 2025,
+   "image": {
+    "src": "/media/about/honor/soft/soft_24.webp",
+    "w": 420,
+    "h": 568,
+    "thumb": "/media/about/honor/soft/soft_24-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2025sr0987260",
+  "title": "盘古华云决策分析引擎软件 V1.0",
+  "summary": "",
+  "category": "2025",
+  "sort": 25,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2025SR0987260",
+   "year": 2025,
+   "image": {
+    "src": "/media/about/honor/soft/soft_25.webp",
+    "w": 420,
+    "h": 569,
+    "thumb": "/media/about/honor/soft/soft_25-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2025sr0978637",
+  "title": "盘古华云可视图表引擎软件 V1.0",
+  "summary": "",
+  "category": "2025",
+  "sort": 26,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2025SR0978637",
+   "year": 2025,
+   "image": {
+    "src": "/media/about/honor/soft/soft_26.webp",
+    "w": 420,
+    "h": 564,
+    "thumb": "/media/about/honor/soft/soft_26-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2025sr0949345",
+  "title": "盘古华云视频处理引擎软件 V1.0",
+  "summary": "",
+  "category": "2025",
+  "sort": 27,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2025SR0949345",
+   "year": 2025,
+   "image": {
+    "src": "/media/about/honor/soft/soft_27.webp",
+    "w": 420,
+    "h": 570,
+    "thumb": "/media/about/honor/soft/soft_27-thumb.webp"
+   }
+  }
+ },
+ {
+  "type": "copyright",
+  "slug": "2025sr0949376",
+  "title": "盘古华云机器音视觉引擎软件 V1.0",
+  "summary": "",
+  "category": "2025",
+  "sort": 28,
+  "featured": false,
+  "publishedAt": null,
+  "expiresAt": null,
+  "authorized": true,
+  "archived": false,
+  "data": {
+   "regNo": "2025SR0949376",
+   "year": 2025,
+   "image": {
+    "src": "/media/about/honor/soft/soft_28.webp",
+    "w": 420,
+    "h": 569,
+    "thumb": "/media/about/honor/soft/soft_28-thumb.webp"
+   }
+  }
+ }
+]
