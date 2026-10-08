@@ -1,5 +1,8 @@
 import tailwindcss from '@tailwindcss/vite'
 
+// HYZL_STATIC_DEMO=1：生成纯静态演示包（tools/build-demo.sh），页面在构建时预渲染，内容取自运行中的内容服务
+const staticDemo = process.env.HYZL_STATIC_DEMO === '1'
+
 // 华云智联官网 V2.0 前端配置（design_document/K-04）
 export default defineNuxtConfig({
   compatibilityDate: '2026-10-01',
@@ -36,23 +39,29 @@ export default defineNuxtConfig({
       siteUrl: 'http://localhost:3000', // NUXT_PUBLIC_SITE_URL
       hotline: '029-88810623',
       icp: '陕ICP备2026024028号-1',
+      staticDemo, // 演示包中搜索与表单提交不可用，页面给出提示
     },
   },
 
   routeRules: {
-    // 旧站 URL 301（design_document/03 §5）
-    '/index.html': { redirect: { to: '/', statusCode: 301 } },
-    '/news.html': { redirect: { to: '/news', statusCode: 301 } },
-    '/product.html': { redirect: { to: '/products', statusCode: 301 } },
-    '/lab.html': { redirect: { to: '/research/labs', statusCode: 301 } },
-    '/service.html': { redirect: { to: '/support', statusCode: 301 } },
-    '/about.html': { redirect: { to: '/about', statusCode: 301 } },
+    // 旧站 URL 301（design_document/03 §5）。静态演示包不需要，且预渲染的 /index.html 跳转页会覆盖首页
+    ...(staticDemo ? {} : {
+      '/index.html': { redirect: { to: '/', statusCode: 301 } },
+      '/news.html': { redirect: { to: '/news', statusCode: 301 } },
+      '/product.html': { redirect: { to: '/products', statusCode: 301 } },
+      '/lab.html': { redirect: { to: '/research/labs', statusCode: 301 } },
+      '/service.html': { redirect: { to: '/support', statusCode: 301 } },
+      '/about.html': { redirect: { to: '/about', statusCode: 301 } },
+    }),
     '/media/**': { headers: { 'cache-control': 'public, max-age=2592000' } },
   },
 
-  nitro: {
-    compressPublicAssets: true,
-  },
+  nitro: staticDemo
+    ? {
+        output: { dir: '.output-demo' },
+        prerender: { crawlLinks: true, routes: ['/', '/search', '/legal/privacy'], failOnError: false },
+      }
+    : { compressPublicAssets: true },
 
   experimental: {
     // 使用 Vite Environment API 构建：客户端清单在内存中内联到服务端包，

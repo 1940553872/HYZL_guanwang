@@ -9,3 +9,5 @@ apps/web/test-results/
 apps/web/playwright-report/
 *.log
 tools/__pycache__/
+dist/
+apps/web/.output-demo/
