@@ -1,0 +1,86 @@
+{
+  "$description": "华云智联官网 V2.0 设计 Token v0.2（2026-10-08）。品牌色取自 Logo（素材库/images/logo.png）。来源：design_document/K-01-ui-visual-design.md §2。对比度已按 WCAG 2.1 校验。",
+  "color": {
+    "brand": {
+      "blue": {
+        "50": { "$value": "#EAF0FA", "$type": "color" },
+        "300": { "$value": "#7FA3E6", "$type": "color", "$description": "深底链接与图标" },
+        "500": { "$value": "#3060AC", "$type": "color", "$description": "Logo 弧形渐变浅端" },
+        "700": { "$value": "#05348E", "$type": "color", "$description": "华云蓝（Logo 主色）" }
+      },
+      "orange": {
+        "50": { "$value": "#FDEEE6", "$type": "color" },
+        "500": { "$value": "#ED6E37", "$type": "color", "$description": "华云橙（Logo）；浅底对比 3.05，仅深底文字或 ≥24px 图形" },
+        "600": { "$value": "#C2471A", "$type": "color", "$description": "行动橙：浅底主按钮（白字 4.99）" },
+        "700": { "$value": "#A93F15", "$type": "color", "$description": "主按钮悬停" }
+      }
+    },
+    "navy": {
+      "800": { "$value": "#12285A", "$type": "color" },
+      "900": { "$value": "#0A1A3F", "$type": "color", "$description": "深色段背景" }
+    },
+    "text": {
+      "onDark": { "$value": "#F2F4F8", "$type": "color" },
+      "onDarkMuted": { "$value": "#A9B6CF", "$type": "color" }
+    },
+    "ink": {
+      "900": { "$value": "#0E1726", "$type": "color" },
+      "600": { "$value": "#4A5567", "$type": "color" },
+      "500": { "$value": "#5E6A7D", "$type": "color" }
+    },
+    "line": {
+      "200": { "$value": "#DDE3EC", "$type": "color" },
+      "300": { "$value": "#C3CBD8", "$type": "color" }
+    },
+    "paper": { "$value": "#F6F7F9", "$type": "color" },
+    "white": { "$value": "#FFFFFF", "$type": "color" },
+    "success": { "$value": "#177A3F", "$type": "color" },
+    "warning": { "$value": "#A15C00", "$type": "color" },
+    "danger": { "$value": "#C8281E", "$type": "color" },
+    "info": { "$value": "#1F5FD1", "$type": "color" },
+    "data": {
+      "light": ["#3060AC", "#C2471A", "#177A3F", "#A15C00", "#5E6A7D"],
+      "dark": ["#7FA3E6", "#ED6E37", "#3FBF7F", "#FFB089", "#A9B6CF"]
+    }
+  },
+  "font": {
+    "family": {
+      "sans": "\"HarmonyOS Sans SC\", \"Source Han Sans SC\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+      "latin": "Inter, \"HarmonyOS Sans SC\", sans-serif",
+      "mono": "\"JetBrains Mono\", ui-monospace, monospace"
+    },
+    "scale": {
+      "display": { "desktop": [60, 72], "mobile": [36, 44], "weight": 700, "tracking": "-0.01em" },
+      "h1": { "desktop": [44, 56], "mobile": [30, 38], "weight": 700 },
+      "h2": { "desktop": [34, 44], "mobile": [24, 32], "weight": 700 },
+      "h3": { "desktop": [26, 36], "mobile": [20, 28], "weight": 600 },
+      "h4": { "desktop": [20, 30], "mobile": [18, 28], "weight": 600 },
+      "eyebrow": { "desktop": [14, 20], "mobile": [13, 18], "weight": 600, "tracking": "0.08em", "transform": "uppercase" },
+      "stat": { "desktop": [56, 64], "mobile": [40, 48], "weight": 700, "tracking": "-0.02em" },
+      "bodyLg": { "desktop": [18, 32], "mobile": [16, 28], "weight": 400 },
+      "body": { "desktop": [16, 28], "mobile": [16, 28], "weight": 400 },
+      "bodySm": { "desktop": [14, 22], "mobile": [14, 22], "weight": 400 },
+      "caption": { "desktop": [12, 18], "mobile": [12, 18], "weight": 400, "tracking": "0.02em" },
+      "mono": { "desktop": [14, 22], "mobile": [13, 20], "weight": 500 }
+    }
+  },
+  "space": { "1": 4, "2": 8, "3": 12, "4": 16, "5": 24, "6": 32, "7": 48, "8": 64, "9": 96, "10": 128 },
+  "radius": { "xs": 2, "sm": 4, "md": 8, "full": 9999 },
+  "shadow": {
+    "1": "0 4px 16px rgba(10,26,63,0.10)",
+    "2": "0 12px 40px rgba(10,26,63,0.18)"
+  },
+  "motion": {
+    "fast": "150ms ease-out",
+    "base": "250ms ease-out",
+    "slow": "400ms cubic-bezier(0.2,0.8,0.2,1)",
+    "count": "1200ms ease-out"
+  },
+  "breakpoint": { "sm": 640, "md": 768, "lg": 1024, "xl": 1280, "2xl": 1440 },
+  "grid": {
+    "xs": { "columns": 4, "gutter": 16, "margin": 16 },
+    "md": { "columns": 8, "gutter": 20, "margin": 32 },
+    "lg": { "columns": 12, "gutter": 24, "margin": 40 },
+    "xl": { "columns": 12, "gutter": 24, "margin": 48, "container": 1280 }
+  }
+}
