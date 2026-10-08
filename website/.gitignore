@@ -11,3 +11,4 @@ apps/web/playwright-report/
 tools/__pycache__/
 dist/
 apps/web/.output-demo/
+apps/web/dist
