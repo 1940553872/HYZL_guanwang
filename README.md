@@ -24,7 +24,7 @@
 ## 官网代码（华云智联官网 V2.0）
 
 - [website/](./website/README.md)：Nuxt 4 前端 + Spring Boot 4 内容服务，覆盖 K-02 全部 P0 页面
-  - **本地运行**：`cd website && ./start.sh`，打开 http://localhost:3000，`./stop.sh` 停止（Windows 双击 `start.bat` / `stop.bat`）
+  - **本地运行**：`cd website && ./start.sh`，打开 http://localhost:3000，`./stop.sh` 停止；Windows 双击 `start.bat` / `stop.bat`，或在 PowerShell 中运行 `.\start.bat`
   - [本地部署说明](./website/docs/本地部署说明.md) ｜ [架构说明](./website/docs/architecture.md) ｜ [ADR](./website/docs/adr/) ｜ [测试报告](./website/docs/test-report.md) ｜ [内容待办](./website/docs/CONTENT_TODO.md)
 
 ## 素材库

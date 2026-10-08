@@ -7,6 +7,8 @@ param(
   [switch]$Rebuild
 )
 $ErrorActionPreference = 'Stop'
+# Windows PowerShell 5.1 没有 $IsWindows，视为 Windows
+$OnWindows = ($PSVersionTable.PSEdition -eq 'Desktop') -or $IsWindows
 $Root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $RunDir = Join-Path $Root '.run'
 $LogDir = Join-Path $RunDir 'logs'
@@ -23,6 +25,15 @@ function Ok($m) { Write-Host "[OK] $m" -ForegroundColor Green }
 function Info($m) { Write-Host "  > $m" }
 function Fail($m) { Write-Host "[X] $m" -ForegroundColor Red; exit 1 }
 
+# 运行原生命令并返回退出码；输出写入 $LogFile（可选）。
+# 在函数内把 ErrorActionPreference 设为 Continue，避免 Windows PowerShell 5.1 把 npm / java 的 stderr 警告当成终止错误。
+function Invoke-Native([string]$File, [string[]]$Arguments, [string]$LogFile) {
+  $ErrorActionPreference = 'Continue'
+  if ($LogFile) { & $File @Arguments 2>&1 | ForEach-Object { "$_" } | Out-File -FilePath $LogFile -Encoding utf8 }
+  else { & $File @Arguments 2>&1 | ForEach-Object { "$_" } | Out-Host }
+  return $LASTEXITCODE
+}
+
 function Get-SavedPid($name) {
   $f = Join-Path $RunDir "$name.pid"
   if (Test-Path $f) { return [int](Get-Content $f -Raw).Trim() } else { return $null }
@@ -32,23 +43,37 @@ function Test-Alive($name) {
   return ($p -and (Get-Process -Id $p -ErrorAction SilentlyContinue))
 }
 function Test-Port($port) {
-  return [bool](Get-NetTCPConnection -LocalPort $port -State Listen -ErrorAction SilentlyContinue)
+  # 能连上即视为被占用
+  $c = New-Object System.Net.Sockets.TcpClient
+  try { $c.Connect('127.0.0.1', [int]$port); return $true } catch { return $false } finally { $c.Close() }
+}
+function Test-Http($url) {
+  # 直连本机，不走系统代理（本机装有 Clash 等代理软件时 Invoke-WebRequest 可能被代理拦截）
+  try {
+    $req = [System.Net.HttpWebRequest]::Create($url)
+    $req.Proxy = $null
+    $req.Timeout = 2000
+    $res = $req.GetResponse(); $res.Close(); return $true
+  } catch { return $false }
 }
 function Wait-Http($url, $seconds) {
   for ($i = 0; $i -lt $seconds; $i++) {
-    try { Invoke-WebRequest -Uri $url -UseBasicParsing -TimeoutSec 2 | Out-Null; return $true } catch { Start-Sleep -Seconds 1 }
+    if (Test-Http $url) { return $true }
+    Start-Sleep -Seconds 1
   }
   return $false
 }
 
 function Test-Env {
-  if (-not (Get-Command java -ErrorAction SilentlyContinue)) { Fail '未找到 Java，请安装 JDK 21 或更高版本。' }
-  $props = & cmd /c "java -XshowSettings:properties -version 2>&1"
+  if (-not (Get-Command java -ErrorAction SilentlyContinue)) { Fail '未找到 Java，请安装 JDK 21 或更高版本（如 Eclipse Temurin 21），并确保 java 在 PATH 中。' }
+  $ErrorActionPreference = 'Continue'
+  $props = & java -XshowSettings:properties -version 2>&1 | ForEach-Object { "$_" }
+  $ErrorActionPreference = 'Stop'
   $line = $props | Where-Object { $_ -match 'java.specification.version' } | Select-Object -First 1
   $jv = if ($line) { ($line -split '=')[1].Trim() } else { '0' }
   if ([int]($jv.Split('.')[0]) -lt 21) { Fail "Java 版本为 $jv，需要 21 或更高版本。" }
   if (-not (Get-Command node -ErrorAction SilentlyContinue)) { Fail '未找到 Node.js，请安装 20.19 或更高版本（推荐 22 LTS）。' }
-  $nv = (& node -p 'process.versions.node').Trim()
+  $nv = ("$(& node -p 'process.versions.node')").Trim()
   $parts = $nv.Split('.')
   if ([int]$parts[0] -lt 20 -or ([int]$parts[0] -eq 20 -and [int]$parts[1] -lt 19)) { Fail "Node.js 版本为 $nv，需要 20.19 或更高版本。" }
   Ok "环境检查通过：Java $jv，Node.js $nv"
@@ -57,19 +82,40 @@ function Test-Env {
 function Invoke-Build {
   if ($Rebuild -or -not (Test-Path $ApiJar)) {
     Info '构建内容服务（首次需下载依赖，约 2–5 分钟）…'
-    Push-Location $ApiDir; & .\mvnw.cmd -q -DskipTests package; $code = $LASTEXITCODE; Pop-Location
-    if ($code -ne 0) { Fail 'API 构建失败。' }
+    $mvnw = if ($OnWindows) { Join-Path $ApiDir 'mvnw.cmd' } else { Join-Path $ApiDir 'mvnw' }
+    Push-Location $ApiDir
+    try { $code = Invoke-Native $mvnw @('-q', '-DskipTests', 'package') } finally { Pop-Location }
+    if ($code -ne 0) { Fail 'API 构建失败，详见上方输出。' }
+    Ok 'API 构建完成'
   }
+  $npm = if ($OnWindows) { 'npm.cmd' } else { 'npm' }
   if ($Rebuild -or -not (Test-Path (Join-Path $WebDir 'node_modules'))) {
-    Info '安装前端依赖（npm ci）…'
-    Push-Location $WebDir; & npm ci --no-audit --no-fund; $code = $LASTEXITCODE; Pop-Location
+    Info '安装前端依赖（npm ci，约 1 分钟）…'
+    Push-Location $WebDir
+    try { $code = Invoke-Native $npm @('ci', '--no-audit', '--no-fund') } finally { Pop-Location }
     if ($code -ne 0) { Fail 'npm 依赖安装失败。' }
   }
   if ($Rebuild -or -not (Test-Path $WebEntry)) {
     Info '构建网站（约 30 秒）…'
-    Push-Location $WebDir; & npm run build *> (Join-Path $LogDir 'web-build.log'); $code = $LASTEXITCODE; Pop-Location
-    if ($code -ne 0) { Fail "网站构建失败，日志：$LogDir\web-build.log" }
+    $log = Join-Path $LogDir 'web-build.log'
+    Push-Location $WebDir
+    try { $code = Invoke-Native $npm @('run', 'build') $log } finally { Pop-Location }
+    if ($code -ne 0) { Fail "网站构建失败，日志：$log" }
+    Ok '网站构建完成'
   }
+}
+
+# 后台启动进程（Windows 下不弹窗），标准输出 / 错误分别写入 <name>.log / <name>.err.log
+function Start-Hidden([string]$File, [string[]]$Arguments, [string]$Name) {
+  $opts = @{
+    FilePath               = $File
+    ArgumentList           = $Arguments
+    PassThru               = $true
+    RedirectStandardOutput = (Join-Path $LogDir "$Name.log")
+    RedirectStandardError  = (Join-Path $LogDir "$Name.err.log")
+  }
+  if ($OnWindows) { $opts.WindowStyle = 'Hidden' }
+  return Start-Process @opts
 }
 
 function Start-Site {
@@ -82,22 +128,20 @@ function Start-Site {
     Info "启动内容服务（端口 $ApiPort）…"
     $env:PORT = $ApiPort; $env:SERVER_ADDRESS = '127.0.0.1'; $env:HYZL_DATA_DIR = $DataDir
     $env:HYZL_CORS_ORIGINS = "http://localhost:$WebPort"
-    $p = Start-Process -FilePath 'java' -ArgumentList '-Xms128m', '-Xmx512m', '-jar', "`"$ApiJar`"" -WindowStyle Hidden -PassThru `
-      -RedirectStandardOutput (Join-Path $LogDir 'api.log') -RedirectStandardError (Join-Path $LogDir 'api.err.log')
+    $p = Start-Hidden 'java' @('-Xms128m', '-Xmx512m', '-jar', "`"$ApiJar`"") 'api'
     Set-Content -Path (Join-Path $RunDir 'api.pid') -Value $p.Id
-    if (-not (Wait-Http "http://127.0.0.1:$ApiPort/actuator/health" 120)) { Stop-One 'api'; Fail "内容服务启动超时，日志：$LogDir\api.log" }
+    if (-not (Wait-Http "http://127.0.0.1:$ApiPort/actuator/health" 120)) { Stop-One 'api'; Fail "内容服务启动超时，请查看日志：$LogDir 下的 api.log 与 api.err.log" }
     Ok "内容服务已启动（PID $($p.Id)）"
   }
   if (-not (Test-Alive 'web')) {
-    if (Test-Port $WebPort) { Fail "端口 $WebPort 已被占用，可设置环境变量 WEB_PORT 更换端口。" }
+    if (Test-Port $WebPort) { Stop-One 'api'; Fail "端口 $WebPort 已被占用，可设置环境变量 WEB_PORT 更换端口。" }
     Info "启动网站（端口 $WebPort）…"
     $env:PORT = $WebPort; $env:HOST = $HostAddr; $env:NUXT_API_BASE = "http://127.0.0.1:$ApiPort"
     if (-not $env:NUXT_PUBLIC_SITE_URL) { $env:NUXT_PUBLIC_SITE_URL = "http://localhost:$WebPort" }
     $env:NODE_ENV = 'production'
-    $p = Start-Process -FilePath 'node' -ArgumentList "`"$WebEntry`"" -WindowStyle Hidden -PassThru `
-      -RedirectStandardOutput (Join-Path $LogDir 'web.log') -RedirectStandardError (Join-Path $LogDir 'web.err.log')
+    $p = Start-Hidden 'node' @("`"$WebEntry`"") 'web'
     Set-Content -Path (Join-Path $RunDir 'web.pid') -Value $p.Id
-    if (-not (Wait-Http "http://127.0.0.1:$WebPort/api/health" 60)) { Fail "网站启动超时，日志：$LogDir\web.log" }
+    if (-not (Wait-Http "http://127.0.0.1:$WebPort/api/health" 60)) { Fail "网站启动超时，请查看日志：$LogDir 下的 web.log 与 web.err.log" }
     Ok "网站已启动（PID $($p.Id)）"
   }
   Ok "华云智联官网已运行：http://localhost:$WebPort"
@@ -116,7 +160,10 @@ function Stop-One($name) {
 
 function Show-Status {
   foreach ($name in 'api', 'web') {
-    if (Test-Alive $name) { Ok "$name 运行中（PID $(Get-SavedPid $name)）" } else { Info "$name 未运行" }
+    $url = if ($name -eq 'api') { "http://127.0.0.1:$ApiPort/actuator/health" } else { "http://127.0.0.1:$WebPort/api/health" }
+    if (Test-Alive $name) {
+      if (Test-Http $url) { Ok "$name 运行中（PID $(Get-SavedPid $name)），健康检查通过" } else { Write-Host "[!] $name 进程存在，但健康检查未通过" -ForegroundColor Yellow }
+    } else { Info "$name 未运行" }
   }
 }
 

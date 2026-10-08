@@ -2,7 +2,8 @@
 
 依据 [design_document/](../design_document/README.md)（v0.2）和 [素材库/](../素材库/) 实现的公司官网，包括前端网站、内容与业务服务、内容生成工具、测试和本地一键启停脚本。
 
-> **本地运行**：`./start.sh` → 打开 http://localhost:3000 → `./stop.sh`。Windows 双击 `start.bat` / `stop.bat`。
+> **本地运行**：`./start.sh` → 打开 http://localhost:3000 → `./stop.sh`。
+> **Windows**：双击 `start.bat` / `stop.bat`，或在 PowerShell 中运行 `.\start.bat` / `.\stop.bat`（不要运行 `./start.sh`）。
 > 详细说明见 **[docs/本地部署说明.md](./docs/本地部署说明.md)**。
 
 ## 目录结构

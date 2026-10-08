@@ -72,7 +72,7 @@
 
 | 项 | 说明 |
 |---|---|
-| Windows 脚本 | `hyzl.ps1`、`start.bat`、`stop.bat` 按 PowerShell 5.1 语法编写，**未在 Windows 实机运行验证**。首次在 Windows 使用时请反馈问题 |
+| Windows 脚本 | `hyzl.ps1` 已在 PowerShell 7.4（Linux）上实际运行验证：冷构建 `-Rebuild`、启动、重复启动、状态、停止、端口占用报错。脚本已规避 Windows PowerShell 5.1 的已知差异：原生命令 stderr 不中断脚本、健康检查不走系统代理、文件带 UTF-8 BOM。**尚未在 Windows 实机运行**，`start.bat` / `stop.bat` 外壳未验证 |
 | 性能与可访问性自动化 | 未运行 Lighthouse / axe。可访问性按 K-03 清单在代码层实现（焦点、标签、ARIA、对比度），建议提测时由 K-06 用 Lighthouse CI 与 axe 补测 |
 | 压测 | 未执行 k6（K-06 §4 目标 200 QPS）；本地单实例不具代表性 |
 | 浏览器兼容 | 仅 Chromium。Safari / 微信内置浏览器 / 国产双核浏览器需在提测时补测 |
