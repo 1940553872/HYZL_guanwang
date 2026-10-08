@@ -68,7 +68,13 @@
 | PostgreSQL 模式 | `DB_URL=jdbc:postgresql://…` 启动并复测：留资、去重、RUM 入库、后台查看明文写审计、状态流转 | 通过。发现并修复 2 处 PostgreSQL 不兼容的空参数 SQL |
 | 接口文档 | 打开 `/api/v1/docs` | 200 |
 
-## 6. 已知限制与未覆盖项
+## 6. 现场问题记录
+
+| 日期 | 现象 | 根因 | 处理 |
+|---|---|---|---|
+| 2026-10-08 | Windows（Node 24.10、Java 25）构建后所有页面 500，日志 `Either manifest or precomputed data must be provided` | Nuxt 4.6 默认构建方式把客户端资源清单写到 `.nuxt/dist/server/client.precomputed.mjs`，再以绝对路径 import 进服务端包；Windows 上得到空清单（Linux 不复现） | 开启 `experimental.viteEnvironmentApi`，清单直接内联进服务端包；新增 `scripts/verify-build.mjs` 构建自检；启动脚本发现产物不完整时自动重建。Linux 上 Node 24.10 + Java 25 组合已验证正常 |
+
+## 7. 已知限制与未覆盖项
 
 | 项 | 说明 |
 |---|---|

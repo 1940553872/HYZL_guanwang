@@ -80,6 +80,10 @@ build() {
     info "安装前端依赖（npm ci）…"
     (cd "$WEB_DIR" && npm ci --no-audit --no-fund) || die "npm 依赖安装失败。"
   fi
+  if [[ -f "$WEB_ENTRY" && "$force" != "--rebuild" ]] && ! (cd "$WEB_DIR" && node scripts/verify-build.mjs >/dev/null 2>&1); then
+    warn "已有的网站构建产物不完整，将重新构建。"
+    force="--rebuild"
+  fi
   if [[ "$force" == "--rebuild" || ! -f "$WEB_ENTRY" ]]; then
     info "构建网站（Nuxt，约 30 秒）…"
     (cd "$WEB_DIR" && npm run build >"$LOG_DIR/web-build.log" 2>&1) || die "网站构建失败，日志：$LOG_DIR/web-build.log"

@@ -100,7 +100,13 @@ function Invoke-Build {
     try { $code = Invoke-Native $npm @('ci', '--no-audit', '--no-fund') } finally { Pop-Location }
     if ($code -ne 0) { Fail 'npm 依赖安装失败。' }
   }
-  if ($Rebuild -or -not (Test-Path $WebEntry)) {
+  $needWeb = $Rebuild -or -not (Test-Path $WebEntry)
+  if (-not $needWeb) {
+    Push-Location $WebDir
+    try { $code = Invoke-Native 'node' @('scripts/verify-build.mjs') (Join-Path $LogDir 'verify-build.log') } finally { Pop-Location }
+    if ($code -ne 0) { Write-Host '[!] 已有的网站构建产物不完整，将重新构建。' -ForegroundColor Yellow; $needWeb = $true }
+  }
+  if ($needWeb) {
     Info '构建网站（约 30 秒）…'
     $log = Join-Path $LogDir 'web-build.log'
     Push-Location $WebDir

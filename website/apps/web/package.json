@@ -6,7 +6,7 @@
   "description": "华云智联官网 V2.0 前端（Nuxt 4 / Vue 3，design_document/K-04）",
   "scripts": {
     "dev": "nuxt dev --port 3000",
-    "build": "nuxt build",
+    "build": "nuxt build && node scripts/verify-build.mjs",
     "start": "node .output/server/index.mjs",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",

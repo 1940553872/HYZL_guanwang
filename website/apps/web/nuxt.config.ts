@@ -54,5 +54,12 @@ export default defineNuxtConfig({
     compressPublicAssets: true,
   },
 
+  experimental: {
+    // 使用 Vite Environment API 构建：客户端清单在内存中内联到服务端包，
+    // 不再通过绝对路径 import .nuxt/dist/server/client.precomputed.mjs（该方式在 Windows 上会得到空清单，
+    // 运行时报 “Either manifest or precomputed data must be provided”）
+    viteEnvironmentApi: true,
+  },
+
   typescript: { strict: true },
 })
