@@ -9,6 +9,8 @@ param(
 $ErrorActionPreference = 'Stop'
 # Windows PowerShell 5.1 没有 $IsWindows，视为 Windows
 $OnWindows = ($PSVersionTable.PSEdition -eq 'Desktop') -or $IsWindows
+# 按 UTF-8 读取 node / npm / java 的输出，避免中文日志在 GBK 控制台下乱码
+try { [Console]::OutputEncoding = [System.Text.Encoding]::UTF8; $OutputEncoding = [System.Text.Encoding]::UTF8 } catch { }
 $Root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $RunDir = Join-Path $Root '.run'
 $LogDir = Join-Path $RunDir 'logs'
