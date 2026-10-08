@@ -11,11 +11,16 @@
   - [05 华云智联官网对标分析（用户提供）](./research/05-huayunzhilian-benchmark.md)
   - [结构化对比表 companies.csv](./research/data/companies.csv) ｜ [参考来源](./research/sources.md)
 
-## 开发前文档（华云智联官网 V2.0）
+## 设计与开发前文档（华云智联官网 V2.0）
 
-- [docs/](./docs/README.md)：项目基线、里程碑与待确认事项
-  - [01 内容呈现方式与整体布局风格](./docs/01-content-and-layout.md)
-  - K-A 设计：[K-01 UI/视觉](./docs/K-01-ui-visual-design.md) ｜ [K-02 UX/信息架构](./docs/K-02-ux-ia-usability.md) ｜ [K-03 设计走查](./docs/K-03-design-qa-acceptance.md)
-  - K-B 开发：[K-04 前端](./docs/K-04-frontend.md) ｜ [K-05 后端](./docs/K-05-backend.md) ｜ [K-06 测试](./docs/K-06-testing.md)
-  - K-C 运维：[K-07 SRE](./docs/K-07-sre.md)
-  - [K 类驱动板（5W2H + SMART + SAO）](./docs/K-drive-board.md) ｜ [设计 Token](./docs/assets/design-tokens.json)
+- [design_document/](./design_document/README.md)：项目基线、里程碑、待确认事项（v0.2）
+  - [01 现网盘点与问题诊断](./design_document/01-current-site-audit.md) ｜ [02 内容呈现方式与整体布局风格](./design_document/02-content-and-layout.md) ｜ [03 内容与素材迁移方案](./design_document/03-content-and-asset-migration.md)
+  - K-A 设计：[K-01 UI/视觉](./design_document/K-01-ui-visual-design.md) ｜ [K-02 UX/信息架构](./design_document/K-02-ux-ia-usability.md) ｜ [K-03 设计走查](./design_document/K-03-design-qa-acceptance.md)
+  - K-B 开发：[K-04 前端](./design_document/K-04-frontend.md) ｜ [K-05 后端](./design_document/K-05-backend.md) ｜ [K-06 测试](./design_document/K-06-testing.md)
+  - K-C 运维：[K-07 SRE](./design_document/K-07-sre.md)
+  - [K 类驱动板（5W2H + SMART + SAO）](./design_document/K-drive-board.md) ｜ [设计 Token](./design_document/assets/design-tokens.json) ｜ [素材映射表](./design_document/assets/asset-mapping.csv)
+  - [输入资料](./design_document/inputs/)：华云智联网站内容与元素整理（docx）、国内外 AI 与工业软件头部企业官网设计调研
+
+## 素材库
+
+- [素材库/](./素材库/)：现网原图 277 张、页面截图 58 张、官网补录文字、图片文字识别、素材索引
