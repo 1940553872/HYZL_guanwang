@@ -60,6 +60,11 @@ check_env() {
   local nv; nv="$(node -p 'process.versions.node')"
   local major="${nv%%.*}" minor; minor="$(echo "$nv" | cut -d. -f2)"
   if (( major < 20 || (major == 20 && minor < 19) )); then die "Node.js 版本为 $nv，需要 20.19 或更高版本。"; fi
+  local patch; patch="$(echo "$nv" | cut -d. -f3)"
+  # Nuxt 4.6 官方支持范围：^22.22.3 || ^24.15.0 || >=26
+  if ! (( (major == 22 && (minor > 22 || (minor == 22 && patch >= 3))) || (major == 24 && minor >= 15) || major >= 26 )); then
+    warn "Node.js $nv 不在 Nuxt 4.6 官方支持范围内（22.22.3+ / 24.15+ / 26+），建议升级到最新 22 LTS 或 24 LTS。"
+  fi
   command -v npm >/dev/null || die "未找到 npm。"
   ok "环境检查通过：Java $jv，Node.js $nv"
 }

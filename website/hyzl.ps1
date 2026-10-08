@@ -76,6 +76,11 @@ function Test-Env {
   $nv = ("$(& node -p 'process.versions.node')").Trim()
   $parts = $nv.Split('.')
   if ([int]$parts[0] -lt 20 -or ([int]$parts[0] -eq 20 -and [int]$parts[1] -lt 19)) { Fail "Node.js 版本为 $nv，需要 20.19 或更高版本。" }
+  $ma = [int]$parts[0]; $mi = [int]$parts[1]; $pa = [int]$parts[2]
+  # Nuxt 4.6 官方支持范围：^22.22.3 || ^24.15.0 || >=26
+  if (-not (($ma -eq 22 -and ($mi -gt 22 -or ($mi -eq 22 -and $pa -ge 3))) -or ($ma -eq 24 -and $mi -ge 15) -or $ma -ge 26)) {
+    Write-Host "[!] Node.js $nv 不在 Nuxt 4.6 官方支持范围内（22.22.3+ / 24.15+ / 26+），建议升级到最新 22 LTS 或 24 LTS。" -ForegroundColor Yellow
+  }
   Ok "环境检查通过：Java $jv，Node.js $nv"
 }
 
